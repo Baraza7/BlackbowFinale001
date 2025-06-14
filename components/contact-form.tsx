@@ -23,7 +23,6 @@ export default function ContactForm() {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors((prev) => {
         const newErrors = { ...prev }
@@ -36,7 +35,6 @@ export default function ContactForm() {
   const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, checked } = e.target
     setFormData((prev) => ({ ...prev, [name]: checked }))
-    // Clear error when user checks the box
     if (errors[name]) {
       setErrors((prev) => {
         const newErrors = { ...prev }
@@ -84,28 +82,11 @@ export default function ContactForm() {
 
     setIsSubmitting(true)
 
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      })
-
-      const data = await response.json()
-
-      if (data.success) {
-        router.push("/contact/success")
-      } else {
-        router.push("/contact/error")
-      }
-    } catch (error) {
-      console.error("Error submitting form:", error)
-      router.push("/contact/error")
-    } finally {
+    // For preview: simulate API call with timeout
+    setTimeout(() => {
       setIsSubmitting(false)
-    }
+      router.push("/contact/success")
+    }, 1000)
   }
 
   return (

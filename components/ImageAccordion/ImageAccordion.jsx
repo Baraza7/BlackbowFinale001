@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useId } from 'react';
 import PropTypes from 'prop-types';
 import './ImageAccordion.css';
+import { getGalleryConfig } from '@/lib/gallery';
 
 const AccordionItem = ({ item, index, activeIndex, onItemClick, hoverToExpand, uniqueId }) => {
   const isActive = index === activeIndex;
@@ -58,9 +59,7 @@ const ImageAccordion = ({ config: staticConfig }) => {
       setLoading(true);
       setError('');
       try {
-        const res = await fetch('/api/gallery');
-        if (!res.ok) throw new Error('Failed to fetch gallery config');
-        const data = await res.json();
+        const data = await getGalleryConfig();
         setGalleryConfig(data);
         setActiveIndex(data.settings.defaultActiveIndex || 0);
       } catch (err) {

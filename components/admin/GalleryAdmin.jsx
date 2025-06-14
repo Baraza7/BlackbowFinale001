@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { updateGalleryConfig } from '@/lib/gallery';
 
 const GalleryAdmin = ({ config, setConfig }) => {
   const [loading, setLoading] = useState(false);
@@ -38,17 +39,12 @@ const GalleryAdmin = ({ config, setConfig }) => {
     setConfig(prevConfig => ({ ...prevConfig, images: newImages}));
   };
 
-  // Save to Firestore via API
+  // Save to Firestore directly
   const handleSaveChanges = async () => {
     setLoading(true);
     setMessage('');
     try {
-      const res = await fetch('/api/gallery', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(config),
-      });
-      if (!res.ok) throw new Error('Failed to save');
+      await updateGalleryConfig(config);
       setMessage('Gallery configuration saved!');
     } catch (err) {
       setMessage('Error saving gallery: ' + (err.message || err));

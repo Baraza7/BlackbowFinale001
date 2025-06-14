@@ -1,6 +1,5 @@
 import { db } from "@/lib/firebase";
 import { doc, setDoc } from "firebase/firestore";
-import { NextResponse } from "next/server";
 
 const homeContent = {
     hero: {
@@ -24,12 +23,12 @@ const homeContent = {
     }
 };
 
-export async function GET() {
+export async function seedHomeContent() {
     try {
         await setDoc(doc(db, "pages", "home"), homeContent);
-        return NextResponse.json({ success: true, message: "Homepage content seeded successfully." });
+        return { success: true, message: "Homepage content seeded successfully." };
     } catch (error) {
         console.error("Error seeding content:", error);
-        return NextResponse.json({ success: false, message: "Error seeding content.", error: (error as Error).message }, { status: 500 });
+        throw error;
     }
 } 
