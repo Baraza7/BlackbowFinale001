@@ -5,48 +5,42 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 interface Testimonial {
   name: string;
-  position: string;
-  company: string;
-  image: string;
+  location?: string;
+  company?: string;
+  image?: string;
   quote: string;
 }
 
 const testimonials: Testimonial[] = [
   {
-    name: "Sarah Johnson",
-    position: "CTO",
-    company: "TechVision Inc.",
-    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
-    quote: "Working with this team has been transformative for our blockchain infrastructure. Their expertise in Web3 technologies helped us navigate complex challenges with ease."
+    name: "Ramadhan Wanje",
+    location: "Nairobi",
+    company: "Khadim Construction Limited",
+    image: "/Ramadhan Wanje.png",
+    quote:
+      "Blackbow Consult Limited have always demonstrated, quick turn around time and flexibility in guarantee issuance, it’s always a pleasure working with them",
   },
   {
-    name: "Michael Chen",
-    position: "Founder",
-    company: "Nexus Protocol",
-    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
-    quote: "The depth of knowledge this team brings to the table is unmatched. They delivered our staking platform ahead of schedule and exceeded all our expectations."
+    name: "Richard Ochieng",
+    location: "Eldoret",
+    image: "/Richard Ochieng.png",
+    quote:
+      "Blackbow Consult Limited are the place to go for all our trade finance solutions , their end to end offering has assisted us immensely in our business",
   },
   {
-    name: "Elena Rodriguez",
-    position: "Product Lead",
-    company: "MetaBlock Solutions",
-    image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
-    quote: "Their innovative approach to decentralized applications has given us a competitive edge in the market. The team is responsive, professional, and truly understands the Web3 space."
+    name: "Abdirizack Nur",
+    company: "Padaa Enterprises Limited",
+    image: "/Abdirizack Nur.png",
+    quote:
+      "The support we have gotten from Blackbow over the past few years has been very good, we feel well served on trade finance solutions",
   },
   {
-    name: "David Thompson",
-    position: "CEO",
-    company: "BuildTech Construction",
-    image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
-    quote: "The quality of work and attention to detail exceeded our expectations. Their team delivered our construction project on time and within budget."
+    name: "Florence Taiwa",
+    company: "Splash Limited",
+    image: "/Florence Taiwa.png",
+    quote:
+      "Service has been nothing short of amazing from blackbow, we appreciate the prompt service",
   },
-  {
-    name: "Jennifer Lee",
-    position: "Operations Director",
-    company: "Skyline Developers",
-    image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
-    quote: "Their professionalism and expertise in the construction industry is impressive. We\'ve partnered with them on multiple projects and they never disappoint."
-  }
 ];
 
 const TestimonialSlider: React.FC = () => {
@@ -115,13 +109,13 @@ const TestimonialSlider: React.FC = () => {
             {getVisibleTestimonials().map((testimonial, index) => (
               <div 
                 key={index}
-                className="bg-white rounded-2xl p-6 shadow-xl h-full flex flex-col border border-gray-200"
+                className="bg-white rounded-2xl p-6 shadow-xl h-full flex flex-col border border-gray-200 min-h-[260px]"
               >
                 <div className="flex items-center mb-4">
                   <div className="relative mr-4">
                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-yellow-400">
                       <img 
-                        src={testimonial.image} 
+                        src={testimonial.image || '/placeholder-user.jpg'} 
                         alt={testimonial.name}
                         className="w-full h-full object-cover"
                       />
@@ -129,14 +123,19 @@ const TestimonialSlider: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-bold text-gray-800">{testimonial.name}</h4>
-                    <p 
-                      className="text-sm"
-                      style={{
-                        color: 'var(--accent-yellow)'
-                      }}
-                    >
-                      {testimonial.position}, {testimonial.company}
-                    </p>
+                    {(() => {
+                      const subtitle = [testimonial.location, testimonial.company]
+                        .filter(Boolean)
+                        .join(" • ");
+                      return subtitle ? (
+                        <p
+                          className="text-sm"
+                          style={{ color: 'var(--accent-yellow)' }}
+                        >
+                          {subtitle}
+                        </p>
+                      ) : null;
+                    })()}
                   </div>
                   <div className="ml-auto bg-yellow-400 rounded-full p-2">
                     <Quote className="w-4 h-4 text-blue-900" />

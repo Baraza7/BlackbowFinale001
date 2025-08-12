@@ -104,12 +104,15 @@ export default async function BlogPage() {
 
       {/* Hero Section */}
       <InnerHero>
-        <h1 className="hero-title text-white">
-            Stay Informed
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FFBE00] to-[#00B1D2]">
-                & Engaged
-            </span>
-        </h1>
+        <div className="space-y-6 text-center">
+          <h1 className="hero-title text-white whitespace-nowrap">
+            Stay Informed <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFBE00] to-[#00B1D2]">&amp; Engaged</span>
+          </h1>
+          <p className="text-white/90 max-w-3xl mx-auto">
+            Read our latest updates, press notes, and insights. Keep pace with industry trends and company news
+            that matter to your business and projects.
+          </p>
+        </div>
       </InnerHero>
 
       {/* Info Cards Section - Overlapping Design */}
@@ -123,7 +126,7 @@ export default async function BlogPage() {
                 <p className="text-sm">Webinar: Navigating Market Volatility</p>
             </InfoCard>
             <InfoCard icon={<Megaphone className="h-8 w-8 text-white" />} title="Recent News">
-                <p className="text-sm">Black Bow Partners with FinTech Innovators</p>
+                <p className="text-sm">Blackbow Partners with FinTech Innovators</p>
             </InfoCard>
           </div>
         </div>
@@ -134,7 +137,7 @@ export default async function BlogPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: 'var(--accent-yellow)' }}>
-              Latest Updates from Black Bow
+              Latest Updates from Blackbow
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
               Welcome to our update hub. Here, you'll find the latest news, in-depth articles, and expert analysis on the financial landscape. We are committed to providing valuable insights that help you stay ahead in the dynamic world of trade, finance, and investment.
@@ -186,7 +189,7 @@ export default async function BlogPage() {
               Our Media Gallery
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Explore moments from our events, workshops, and company milestones. This gallery captures the vibrant spirit and professional dedication of the Black Bow team.
+              Explore moments from our events, workshops, and company milestones. This gallery captures the vibrant spirit and professional dedication of the Blackbow team.
             </p>
           </div>
           <BentoGridGallery />

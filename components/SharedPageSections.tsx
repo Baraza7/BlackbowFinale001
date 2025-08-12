@@ -4,13 +4,11 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button"
 
 const logos = [
-  { src: "/logoipsum-1.png", alt: "LogoIpsum 1" },
-  { src: "/logoipsum-2.png", alt: "LogoIpsum 2" },
-  { src: "/logoipsum-3.png", alt: "LogoIpsum 3" },
-  { src: "/logoipsum-4.png", alt: "LogoIpsum 4" },
-  { src: "/logoipsum-5.png", alt: "LogoIpsum 5" },
-  { src: "/logoipsum-6.png", alt: "LogoIpsum 6" },
-  { src: "/logoipsum-7.png", alt: "LogoIpsum 7" },
+  { src: "/Family-Bank.png", alt: "Family Bank" },
+  { src: "/Blackbow consult.png", alt: "Blackbow Consult" },
+  { src: "/MEB.png", alt: "MEB Bank" },
+  { src: "/SMEBank.png", alt: "SME Bank" },
+  { src: "/Consolidated-Bank.png", alt: "Consolidated Bank" },
 ];
 
 type SharedPageSectionsProps = {

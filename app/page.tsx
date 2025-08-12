@@ -471,7 +471,7 @@ export default function Home() {
               the unique needs of our clients.
             </p>
             <p className="section-description leading-relaxed mt-4">
-              Black Bow Consult Co. Ltd. empowers African businesses by providing financial solutions that unlock growth
+              Blackbow Consult Co. Ltd. empowers African businesses by providing financial solutions that unlock growth
               and success.
             </p>
             <ul className="text-left mt-6 space-y-2 section-description">
@@ -590,7 +590,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-8">
             <h2 className="section-heading">Work With Us</h2>
-            <p className="section-description max-w-2xl mx-auto">Why clients choose Black Bow Consult:</p>
+            <p className="section-description max-w-2xl mx-auto">Why clients choose Blackbow Consult:</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -750,7 +750,7 @@ export default function Home() {
               <MapPin className="h-8 w-8 mx-auto mb-4" style={{ color: "#FFBE00" }} />
               <h3 className="font-sans font-semibold text-lg mb-2">Address</h3>
               <p className="contacts-info">
-                Garden Chambers Bld, Mokta-Daddah Street, Suite 301A
+                <a href="https://www.google.com/maps?q=Garden+Chambers+Building,+Mokta-Daddah+Street,+Suite+203,+Nairobi,+Kenya" target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">Garden Chambers Building, Mokta-Daddah Street, Suite 203, Nairobi, Kenya</a>
                 <br />
                 P.O. Box 3143-00506, Nairobi - Kenya
               </p>
@@ -759,13 +759,13 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <Phone className="h-8 w-8 mx-auto mb-4" style={{ color: "#FFBE00" }} />
               <h3 className="font-sans font-semibold text-lg mb-2">Phone</h3>
-              <p className="contacts-info">0720-709711 / 0786525716</p>
+              <p className="contacts-info">+254 728 552 225 / +254 720 709 711</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <Mail className="h-8 w-8 mx-auto mb-4" style={{ color: "#FFBE00" }} />
               <h3 className="font-sans font-semibold text-lg mb-2">Email</h3>
-              <p className="contacts-info">info@blackbow.co.ke</p>
+              <p className="contacts-info"><a href="mailto:info@blackbowconsult.co.ke" className="underline-offset-2 hover:underline">info@blackbowconsult.co.ke</a></p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">

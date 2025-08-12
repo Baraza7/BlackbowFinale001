@@ -75,7 +75,7 @@ export default function ContactsForm() {
                   Full Name <span className="text-[#D01C1F]">*</span>
                 </FormLabel>
                 <FormControl>
-                  <Input placeholder="Your name" {...field} />
+                  <Input aria-label="Full Name" placeholder="Full Name *" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -90,7 +90,7 @@ export default function ContactsForm() {
                   Email Address <span className="text-[#D01C1F]">*</span>
                 </FormLabel>
                 <FormControl>
-                  <Input placeholder="Your email" {...field} />
+                  <Input aria-label="Email Address" placeholder="Email Address *" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -105,7 +105,7 @@ export default function ContactsForm() {
             <FormItem>
               <FormLabel>Phone Number</FormLabel>
               <FormControl>
-                <Input placeholder="Your phone number" {...field} />
+                <Input aria-label="Phone Number" placeholder="Phone Number" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -116,13 +116,13 @@ export default function ContactsForm() {
           control={form.control}
           name="subject"
           render={({ field }) => (
-            <FormItem>
-              <FormLabel>
-                Subject <span className="text-[#D01C1F]">*</span>
-              </FormLabel>
-              <FormControl>
-                <Input placeholder="How can we help you?" {...field} />
-              </FormControl>
+              <FormItem>
+                <FormLabel>
+                  Subject <span className="text-[#D01C1F]">*</span>
+                </FormLabel>
+                <FormControl>
+                  <Input aria-label="Subject" placeholder="Subject *" {...field} />
+                </FormControl>
               <FormMessage />
             </FormItem>
           )}
@@ -132,13 +132,13 @@ export default function ContactsForm() {
           control={form.control}
           name="message"
           render={({ field }) => (
-            <FormItem>
-              <FormLabel>
-                Message <span className="text-[#D01C1F]">*</span>
-              </FormLabel>
-              <FormControl>
-                <Textarea placeholder="Your message" {...field} />
-              </FormControl>
+              <FormItem>
+                <FormLabel>
+                  Message <span className="text-[#D01C1F]">*</span>
+                </FormLabel>
+                <FormControl>
+                  <Textarea aria-label="Message" placeholder="Your message *" {...field} />
+                </FormControl>
               <FormMessage />
             </FormItem>
           )}
@@ -164,7 +164,7 @@ export default function ContactsForm() {
               <div className="ml-3 text-sm">
                 <FormLabel>
                   I agree to the{" "}
-                  <a href="#" className="text-[#00B1D2] hover:underline">
+                  <a href="#" className="text-[#D01C1F] no-underline hover:no-underline">
                     privacy policy
                   </a>
                 </FormLabel>

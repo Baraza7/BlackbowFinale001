@@ -1,0 +1,598 @@
+5/9/25, 3:47 PM - Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them. Learn more.
+5/9/25, 3:45 PM - ~ Arnold Midung'a created group "Website project"
+5/9/25, 3:47 PM - ~ Arnold Midung'a added you
+5/9/25, 3:49 PM - +254 720 709711: <Media omitted>
+5/9/25, 3:49 PM - +254 720 709711: <Media omitted>
+5/9/25, 3:49 PM - +254 720 709711: <Media omitted>
+5/9/25, 3:49 PM - +254 720 709711: <Media omitted>
+5/9/25, 3:49 PM - +254 720 709711: <Media omitted>
+5/9/25, 3:49 PM - +254 720 709711: <Media omitted>
+5/9/25, 3:49 PM - +254 720 709711: <Media omitted>
+5/9/25, 3:49 PM - +254 720 709711: <Media omitted>
+5/9/25, 3:53 PM - ~ Arnold Midung'a changed this group's icon
+5/9/25, 4:02 PM - +254 720 709711: <Media omitted>
+5/9/25, 4:02 PM - +254 720 709711: Draft for a Blackbow Insurance Agency 👆🏾
+5/9/25, 4:04 PM - +254 720 709711: <Media omitted>
+5/9/25, 4:04 PM - +254 720 709711: Initial profile
+5/9/25, 4:12 PM - +254 720 709711: That was a superb meeting, let's keep the conversation going
+5/9/25, 4:35 PM - Fanne Mwambi: Great! I agree. Very productive. Thank you all
+5/9/25, 4:36 PM - +254 728 552225: Great progress on the project @254700337557 @254729812144 👏👏👏
+5/9/25, 4:42 PM - B!: Thanks, guys 👍🏾
+5/9/25, 4:45 PM - Fanne Mwambi: Thank you
+5/13/25, 9:59 AM - Fanne Mwambi: Good day, today, Arnold, Susan, please share the photos with us... a link on Drive would be best so that we retain image quality ...
+5/13/25, 10:33 AM - +254 720 709711: Good morning
+5/13/25, 10:33 AM - +254 720 709711: Working on these
+5/13/25, 10:51 AM - +254 720 709711: Have shared a compressed file on mail
+5/13/25, 10:51 AM - +254 720 709711: For Team Nairobi
+5/13/25, 10:52 AM - +254 720 709711: Sharing for Team Eldoret shortly
+5/13/25, 11:07 AM - Fanne Mwambi: Thank you
+5/13/25, 5:23 PM - Fanne Mwambi: They are great!
+5/14/25, 2:35 PM - Fanne Mwambi: <Media omitted>
+5/14/25, 2:36 PM - +254 720 709711: This is Ruth
+5/14/25, 2:37 PM - Fanne Mwambi: Great! Do we have Nelly's?
+5/14/25, 2:42 PM - +254 720 709711: Working on this
+5/15/25, 3:03 PM - +254 720 709711: Good afternoon ,I'm on my way back to the office; should be logging in in like 10 minutes Max
+5/15/25, 3:03 PM - Fanne Mwambi: Hi, that's alright
+5/15/25, 3:19 PM - Fanne Mwambi: I'm here...
+5/15/25, 3:43 PM - B!: <Media omitted>
+5/15/25, 3:52 PM - B!: Control Panel - cPanel Details
+
+The control panel is where you manage your hosting account, add email addresses, databases, upload your website files and many more.
+
+cPanel URL: 
+
+http://blackbowconsult.co.ke/cpanel
+cPanel Username: blackbow
+cPanel Password: 2aZO1.5-a3fUtH
+Email Settings
+
+After you create an email account in the control panel, you can access your email from any browser with internet access using the following link
+
+Webmail Login: 
+
+http://blackbowconsult.co.ke/webmail
+Username: Email Address
+Password: Your Password
+
+Email Account 001
+
+email: info@@blackbowconsult.co.ke
+pw: 64kCJkUTQQ;C
+5/15/25, 3:52 PM - B!: Dear Brian Baraza (Renstine Multimedia),
+
+Thank you for your order with Kenyawebexperts.co.ke
+
+Your hosting account has now been setup and this email contains all the information you will need in order to begin using your account.
+
+Please keep in mind that your domain name will not be visible on the internet instantly, it requires propagation
+
+Propagation Time:
+
+International Domains - 30 Minutes | Local Domains - 3 Hours
+
+New Account Information
+Hosting Package: Basic Starter Hosting
+Billing Cycle: Annually
+Next Due Date: 14/05/2026
+
+Control Panel - cPanel Details
+
+The control panel is where you manage your hosting account, add email addresses, databases, upload your website files and many more.
+
+cPanel URL: http://blackbowconsult.co.ke/cpanel
+cPanel Username: blackbow
+cPanel Password: 2aZO1.5-a3fUtH
+
+FTP Details
+
+To upload your website via FTP you will need to use FTP software ie. Filezilla, WinSCP, Cyberduck or Transmit and upload your website files in public_html directory.
+
+Host Name: blackbowconsult.co.ke
+FTP Username: blackbow
+FTP Password: 2aZO1.5-a3fUtH
+
+
+
+Email Settings
+
+After you create an email account in the control panel, you can access your email from any browser with internet access using the following link
+
+Webmail Login: http://blackbowconsult.co.ke/webmail
+Username: Email Address
+Password: Your Password
+
+Tutorials
+How to create email accounts
+How to Setup Outlook 2013
+How to setup Outlook 2003 -2010
+Tablet and Phone Settings
+How to upload a file using the File Manager
+How to Upload Files Using Filezilla
+
+
+Name Servers
+
+Your domain requires to be pointed to the following name servers, domains registered with us are automatically configured.
+
+Nameserver 1: ns1.mysecurecloudhost.com
+Nameserver 2: ns2.mysecurecloudhost.com
+
+ 
+
+Need Help?
+
+You are covered by our team of experienced and friendly professionals.
+
+Whenever you have a question or need help, you can get instant assistance by submitting a ticket via client area https://kenyawebexperts.co.ke
+
+
+Thank you for choosing Kenyawebexperts.co.ke
+
+Best Regards,
+
+Kenya Website Experts Ltd
+Accredited & Licensed in;
+Kenya . Rwanda . Nigeria . South Africa
++254 722 209 414 | +250 785 062 904
++ 27 110 835 462 | +1 469 638 3248
+International Hse, 4th Floor, Nairobi, KE.
+Email: info@kenyawebexperts.co.ke
+Website: www.kenyawebexperts.co.ke
+5/19/25, 3:00 PM - B!: Hi Team, I am still working on the site fixes (had to change from using WordPress to using React for sake of speed and better performance), I  expected to do most of the work yesterday but family got in the way, allow me to continue the work today will share as soon as I'm ready.
+5/19/25, 3:53 PM - +254 720 709711: Hello Brian
+5/19/25, 3:54 PM - +254 720 709711: Thanks for the update
+5/20/25, 4:58 PM - Fanne Mwambi: <Media omitted>
+5/20/25, 4:59 PM - Fanne Mwambi: good evening, Please see attached the copy I am using for the insurance profile... I just realized I did nit share it with you. Please feel free to make any corrections you deem fit.
+5/20/25, 5:07 PM - +254 728 552225: Thank you
+5/20/25, 6:14 PM - +254 720 709711: Ahsanta allow us to peruse
+5/22/25, 2:31 PM - +254 720 709711: Good afternoon great people
+5/22/25, 2:31 PM - Fanne Mwambi: Good afternoon, Arnold
+5/22/25, 2:32 PM - +254 720 709711: Our meeting is scheduled for Kesho 3pm Godwilling
+5/22/25, 2:32 PM - +254 720 709711: Allow me to reschedule on mail
+5/22/25, 2:32 PM - +254 720 709711: Thanks
+5/22/25, 2:32 PM - Fanne Mwambi: very well!
+5/22/25, 3:24 PM - B!: Noted with thanks, I should be able to share the site by then.
+5/23/25, 3:02 PM - Fanne Mwambi: Hello, joining in 5 minutes
+5/23/25, 3:03 PM - +254 720 709711: Shortly
+5/23/25, 3:04 PM - B!: Hi, just heading to the comp. Kindly give me 10 mins
+5/23/25, 3:06 PM - +254 720 709711: Noted
+5/23/25, 3:17 PM - Fanne Mwambi: Brian is just booting his computer.. he'll be with us shortly
+5/23/25, 3:18 PM - +254 720 709711: Agenda for The Day 
+
+Blackbow Consult Profile - @254700337557 
+
+Blackbow Agency Profile 
+@254700337557 
+
+Status for Blackbow Consult Website 
+@254729812144 
+
+Status got the Blackbow Insurance Agency website 
+@254729812144 
+
+Content on Staff 
+Arnold
+
+Overall Review
+Susan and Arnold <This message was edited>
+5/23/25, 3:18 PM - +254 720 709711: Noted
+5/23/25, 3:21 PM - Fanne Mwambi: My machine is restarting as well. For some reason...back shortly
+5/23/25, 3:21 PM - +254 720 709711: Ok sawa
+5/23/25, 3:22 PM - +254 720 709711: We're on standby
+5/23/25, 3:22 PM - +254 720 709711: Brian has logged in
+5/23/25, 3:23 PM - Fanne Mwambi: I'm in as well.
+5/23/25, 3:30 PM - Fanne Mwambi: <Media omitted>
+5/23/25, 3:38 PM - +254 720 709711: This looks nice 👌🏽
+5/23/25, 3:39 PM - +254 720 709711: <Media omitted>
+5/23/25, 3:40 PM - +254 720 709711: <Media omitted>
+5/28/25, 11:14 PM - B!: Hi team, apologies for the late notice. I’ve just been informed that I need to go to Nyayo House tomorrow to finalize my daughter’s passport application. If it’s not too much of an inconvenience, would it be possible to reschedule our weekly meeting to Friday?
+5/29/25, 8:46 AM - Fanne Mwambi: Good morning, Im okay with the reschedule if we keep to the same time. 
+Meanwhile, Arnold, could you please share the information we discussed.. <This message was edited>
+5/29/25, 9:05 AM - +254 720 709711: Good Morning
+5/29/25, 9:05 AM - +254 720 709711: This is noted sharing on mail
+5/29/25, 6:39 PM - +254 720 709711: Good evening great people, I trust we're well, I'm humbly requesting we have the meeting next week Godwilling
+5/29/25, 6:40 PM - +254 720 709711: On account of @118274926878807 having an exam tomorrow and accumulated work obligations
+5/29/25, 6:40 PM - +254 720 709711: Ahsanteni
+5/29/25, 8:01 PM - +254 728 552225: Very much in order🙏Thank you
+5/29/25, 8:08 PM - B!: Noted. All the best with your exams, Susan.
+5/29/25, 8:18 PM - +254 728 552225: Asante🙏
+5/29/25, 8:31 PM - Fanne Mwambi: Oh, sure thing, wishing you the best Susan! We can make updates here so we have more progress next week?
+5/29/25, 9:33 PM - +254 728 552225: Asante 🙏
+5/29/25, 11:32 PM - +254 720 709711: Yes this we should
+6/10/25, 5:28 PM - +254 720 709711: null
+6/10/25, 5:28 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:28 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:31 PM - +254 720 709711: <Media omitted>
+6/10/25, 5:32 PM - +254 720 709711: @15109845946531 good evening
+6/10/25, 5:32 PM - +254 720 709711: I've gone through our archives for some photos of several events we attended last year
+6/10/25, 5:32 PM - +254 720 709711: Financial Inclusion conference Association of Microfinance Institutions <This message was edited>
+6/10/25, 5:33 PM - +254 720 709711: Financial Inclusion Dinner with CNBC
+6/10/25, 5:33 PM - +254 720 709711: John Deer stand at Agri Machinery Expo
+6/10/25, 5:33 PM - +254 720 709711: Apologies for the late communication
+6/10/25, 5:33 PM - +254 720 709711: Thanks
+6/10/25, 5:42 PM - +254 720 709711: @130322477932659 I have sent the Staff profiles on mail
+6/10/25, 6:40 PM - Fanne Mwambi: Thank you, Arnold I am in receipt of them.
+6/11/25, 8:44 PM - B!: @72997314535571 hi, thanks, I  am adding them to the site. Can we have an online meeting this Friday afternoon?  The site is ready for presentation.
+6/11/25, 10:56 PM - +254 720 709711: Yes of course
+6/11/25, 10:56 PM - +254 720 709711: This are superb developments
+6/12/25, 7:26 AM - Fanne Mwambi: I agree
+6/12/25, 9:27 AM - +254 720 709711: Good Morning Great people, will send an invite for the meeting for tomorrow
+6/12/25, 9:32 AM - Fanne Mwambi: Very well
+6/12/25, 9:32 AM - Fanne Mwambi: Good morning
+6/12/25, 6:43 PM - +254 720 709711: Good evening team, I trust we're well, I have set up Link for e-meeting tomorrow 13th July 2025 at 3pm
+6/12/25, 6:43 PM - +254 720 709711: Good Evening
+6/12/25, 8:58 PM - Fanne Mwambi: This is well noted. Hello and good evening
+6/13/25, 11:36 AM - B!: Hi Team,
+An urgent matter has unexpectedly taken me to Machakos for the afternoon.
+To keep the project moving forward, I will upload the website and share the link with my notes this evening when I get home. Please take some time to review them over the weekend. We can then schedule a meeting early next week (Monday or Tuesday) to discuss feedback, with the goal of my implementing all changes by the end of the week. We can perhaps have another meeting on Friday, if that is fine with everyone.
+6/13/25, 11:39 AM - +254 720 709711: Hello Brian pole for the emergency
+6/13/25, 11:40 AM - +254 720 709711: Kindly avail the said links
+6/13/25, 11:40 AM - +254 720 709711: We can have a brief meeting with @130322477932659 just to check on her progress then we reconvene next week Godwilling
+6/13/25, 11:42 AM - Fanne Mwambi: Sure
+6/13/25, 12:08 PM - +254 728 552225: Sounds good 👍
+6/13/25, 1:24 PM - B!: I was to present from my laptop, then confirm some things before hosting. It is in my local machine. I can upload in the evening when I get back. Then share my questions on chat.
+6/13/25, 1:26 PM - B!: Apologies for the delayed response, was driving.
+6/13/25, 1:39 PM - +254 720 709711: Ok sawa sawa
+6/13/25, 1:42 PM - Fanne Mwambi: I'm also trying to beat time to have the doc ready, but  I worry the second will not be ready in time... can I share the doc with you today then discuss changes on this group?
+6/13/25, 1:42 PM - Fanne Mwambi: I apologise
+6/13/25, 1:42 PM - Fanne Mwambi: Arnold, let me call in a bit
+6/13/25, 1:50 PM - +254 720 709711: Hello, thanks for the call, this is in order
+6/13/25, 1:51 PM - Fanne Mwambi: I planned to have the meeting while at school today, as we're getting press cards today, but I'm informed the process is taking long. So I worry I may not have the doc ready in time. I'll however work on it and share asap and we can share suggestions for changes here.
+6/13/25, 1:55 PM - +254 720 709711: Ok sawa
+6/13/25, 1:55 PM - +254 720 709711: Lets work on our Lose ends and reconvene next week Godwilling 🙏🏾
+6/13/25, 1:56 PM - Fanne Mwambi: Thanks for understanding
+6/16/25, 8:56 AM - B!: <Media omitted>
+6/16/25, 8:56 AM - B!: <Media omitted>
+6/16/25, 8:56 AM - B!: <Media omitted>
+6/16/25, 8:56 AM - B!: <Media omitted>
+6/16/25, 9:20 AM - +254 720 709711: Good Morning @15109845946531 frame looks superb
+6/16/25, 9:21 AM - +254 720 709711: Kindly also include Staff members 
+a)Ruth Mwihaki
+b) Allan Juma
+c) Faith Kemboi
+6/16/25, 9:21 AM - +254 720 709711: Profiles are with @130322477932659 for reference
+6/16/25, 9:24 AM - Fanne Mwambi: Hello and good morning,
+6/16/25, 9:24 AM - Fanne Mwambi: I will also be sharing the profiles in a  bit..
+6/16/25, 9:26 AM - +254 720 709711: Excellent
+6/16/25, 9:28 AM - Fanne Mwambi: I however need Faith's and Nelly's pictures separately. The ones on the documents are cropped and don't fill well in the profiles. <This message was edited>
+6/16/25, 9:56 AM - B!: Glad you like it, should have the live version online as soon as possible.
+6/16/25, 10:01 AM - +254 720 709711: Noted
+6/16/25, 10:07 AM - +254 720 709711: Photos in your inbox
+6/16/25, 10:07 AM - Fanne Mwambi: acknowledged
+6/16/25, 1:44 PM - Fanne Mwambi: <Media omitted>
+6/17/25, 12:38 PM - Fanne Mwambi: Good day today, Please take a look at the two profiles and suggest changes.
+6/17/25, 12:38 PM - Fanne Mwambi: <Media omitted>
+6/17/25, 12:39 PM - Fanne Mwambi: Point to note is the personel... I'm not sure I have captured them all in both.. or if there are others that need to be in both.
+6/17/25, 12:39 PM - Fanne Mwambi: I apologise for the delays.
+6/17/25, 12:43 PM - +254 720 709711: Include Faith Kemboi
+6/17/25, 1:25 PM - Fanne Mwambi: ok
+6/17/25, 3:19 PM - Fanne Mwambi: <Media omitted>
+6/17/25, 3:26 PM - Fanne Mwambi: I have also made some changes on Ruth's bio
+6/17/25, 3:34 PM - +254 720 709711: Aah excellent checking shortly
+6/17/25, 3:54 PM - Fanne Mwambi: I hope you are all safe considering your location?
+6/17/25, 3:54 PM - +254 728 552225: We are
+6/17/25, 3:54 PM - Fanne Mwambi: Aah great!
+6/20/25, 2:41 PM - Fanne Mwambi: Good afternoon, any feedback/reviews? Let me know if you plan to print the profiles so that I amend their sizes.
+6/20/25, 2:42 PM - +254 720 709711: Good afternoon Fanne, the profiles are ok
+6/20/25, 2:43 PM - +254 720 709711: @15109845946531 Status on your end?
+6/20/25, 2:47 PM - Fanne Mwambi: Alright. I will share the final drafts on email
+6/20/25, 2:49 PM - B!: Tackling deployment errors, haven't hosted a react app on C-panel before. Asked a  colleague to go through it and help, he can only get time after work, so allow me to give him today and follow up tomorrow.
+6/20/25, 2:51 PM - B!: It is working locally, just waiting to have it on the server.
+6/20/25, 3:00 PM - +254 720 709711: Lets work in such a way we complete this by next week Inshallah
+6/20/25, 3:00 PM - +254 720 709711: It's possible sindio?
+6/20/25, 3:09 PM - B!: Yes. Hosting is the only issue.
+6/20/25, 3:10 PM - +254 720 709711: Ok lets work to finalise bro
+6/23/25, 3:34 PM - Fanne Mwambi: Good day today, We've recorded some progress. Hopefully we should be up and running tonight.
+6/23/25, 3:34 PM - +254 720 709711: Good afternoon to you excellent
+6/24/25, 11:52 AM - Fanne Mwambi: Good day today,
+6/24/25, 11:53 AM - Fanne Mwambi: Brian shared the link with me, last night and I've been going through it... I will share it with you so we can work together on the review process.
+6/24/25, 11:53 AM - Fanne Mwambi: https://bbw-demo01-3wny.vercel.app
+6/24/25, 12:30 PM - Fanne Mwambi: Perhaps we could set up a review meeting? Please advise. Brian proposes Tomorrow.. but let know if that would work
+6/24/25, 1:22 PM - +254 728 552225: Timing?
+6/24/25, 1:59 PM - Fanne Mwambi: perhaps you can advice?
+6/24/25, 6:34 PM - +254 720 709711: Good evening
+6/24/25, 6:35 PM - +254 720 709711: We propose Thursday Morning hours or jioni from around 4pm
+6/24/25, 6:36 PM - B!: Hi @72997314535571 Thursday sounds good to me. Afternoon would be best in my case.
+6/24/25, 6:38 PM - +254 720 709711: Sawa sawa Thursday 4 o'clock is ok @130322477932659 are we in a position to align?
+6/24/25, 6:41 PM - Fanne Mwambi: That's okay by me.
+6/24/25, 6:41 PM - +254 720 709711: Excellent, will send an email invitation
+6/24/25, 6:42 PM - B!: 👍🏾
+6/24/25, 7:40 PM - +254 728 552225: Great 👍
+6/26/25, 3:59 PM - Fanne Mwambi: Good afternoon. We are still on, right?
+6/26/25, 3:59 PM - +254 720 709711: Good afternoon
+6/26/25, 3:59 PM - +254 720 709711: Yes setting up shortly
+6/26/25, 4:02 PM - Fanne Mwambi: Ok
+6/26/25, 4:03 PM - B!: Hi, thought it was for 3 so I assumed since there was no calendar set up guys might be busy .. kindly allow me to get back to my comp at 4:30. If that is okay
+6/26/25, 4:05 PM - +254 720 709711: Sawa let me set it up for 4:30
+6/26/25, 4:06 PM - +254 720 709711: Pardon me Day was swamped
+6/26/25, 4:06 PM - Fanne Mwambi: No worries. All is well
+6/26/25, 4:06 PM - +254 720 709711: We can join at 4:30 Link is on our mails
+6/26/25, 4:09 PM - B!: Let me head back, had just stepped out to take the kid to get some school supplies.
+6/26/25, 4:09 PM - +254 720 709711: Safi ndugu <This message was edited>
+6/26/25, 4:09 PM - Fanne Mwambi: Sawa Brian..🙂
+6/26/25, 4:30 PM - B!: Do you guys mind if i participate using my phone? My estimate to be back at my comp by 4:30 doesn't look possible, still trying to exit Galleria Mall.
+6/26/25, 4:32 PM - +254 720 709711: Ok , guys looks like tumeshikana
+6/26/25, 4:32 PM - +254 720 709711: Could we kindly have the meeting kesho?
+6/26/25, 4:33 PM - Fanne Mwambi: ooh, Brian and I are online..
+6/26/25, 4:34 PM - Fanne Mwambi: Although he is still on his way
+6/26/25, 4:34 PM - +254 720 709711: We needed his presentation on the website
+6/26/25, 4:35 PM - +254 720 709711: Lets decide on time and Lock it in right now
+6/26/25, 4:35 PM - +254 728 552225: How does the morning look like for @15109845946531 and @130322477932659 ?
+6/26/25, 4:36 PM - Fanne Mwambi: I agree and Brian would also like the same
+6/26/25, 4:36 PM - +254 728 552225: 10am?
+6/26/25, 4:36 PM - Fanne Mwambi: I am easy any time before 4pm tomorrow.
+6/26/25, 4:37 PM - B!: Morning hours I'm tied up at work, I'm usually free between 2pm-4pm
+6/26/25, 4:40 PM - +254 728 552225: That’s still very okay 👍
+6/26/25, 4:41 PM - +254 720 709711: Ok great people let me schedule from 2:30 to 3:30
+6/26/25, 4:42 PM - B!: Noted thanks.
+6/26/25, 4:44 PM - +254 720 709711: Great people, I have sent the email invite 👍🏽
+6/26/25, 4:44 PM - Fanne Mwambi: Thats Perfect!
+6/27/25, 2:32 PM - +254 720 709711: Good afternoon great people did we get the invite? Lets log in
+6/27/25, 2:33 PM - Fanne Mwambi: Good afternoon, yes logging in.  am in transit but I'll be settled as Brian presents.  You'll barely notice.
+6/27/25, 2:34 PM - +254 720 709711: Ok
+6/27/25, 2:37 PM - +254 720 709711: Logging in shortly
+6/27/25, 2:38 PM - B!: Restarting my machine, I am able to get in the meeting but my microphone seems off.
+6/27/25, 2:39 PM - +254 720 709711: Ok
+6/27/25, 3:44 PM - +254 720 709711: Kuna inaitwa Montserrat na Aligatai
+6/27/25, 3:44 PM - +254 720 709711: Good afternoon from our designer
+6/27/25, 3:44 PM - Fanne Mwambi: Great!
+6/30/25, 8:44 PM - B!: Hi Team,
+
+I hope everyone is doing well. Could we please get the font files from the designer? There seem to be multiple fonts named "Aligatai," and we need to confirm the exact one to use. I would also appreciate clarification on the color palette and a vector version of the logo, if available.
+6/30/25, 9:01 PM - +254 720 709711: Hello Brian, what do you mean by Color palette? Color combinations ?
+6/30/25, 9:02 PM - +254 720 709711: On the fonts he gave these
+6/30/25, 9:08 PM - B!: <Media omitted>
+6/30/25, 9:12 PM - +254 720 709711: Oh we just have general descriptions
+6/30/25, 9:12 PM - B!: Installation files for the specific font are needed. We have several fonts with that name, so it would be easiest if he could share the installation file for the exact one he is using.
+6/30/25, 9:12 PM - Fanne Mwambi: Ok, I think we've got the Aligatai 👍
+6/30/25, 9:14 PM - B!: Sawa, We should be fine then.
+7/2/25, 4:51 PM - +254 728 552225: <Media omitted>
+7/2/25, 4:53 PM - +254 728 552225: <Media omitted>
+7/2/25, 5:16 PM - B!: Noted.
+7/3/25, 10:27 AM - Fanne Mwambi: Good morning, please share a list of the companies you've worked with
+7/3/25, 10:28 AM - +254 720 709711: Banks 
+Smep Microfinance Bank 
+Sumac Microfinance Bank 
+Family Bank 
+Consolidated Bank 
+Middle East Bank
+7/3/25, 10:32 AM - Fanne Mwambi: Thank you
+7/3/25, 10:33 AM - +254 720 709711: Insurance companies 
+Amaco Insurance 
+Britam
+CIC
+GA Insurance 
+Madison Insurance 
+Kenya Alliance <This message was edited>
+7/3/25, 10:34 AM - Fanne Mwambi: Great! thanks
+7/3/25, 10:36 AM - Fanne Mwambi: Do they all work with both BB Consult & the Insurance company?
+7/3/25, 10:36 AM - +254 720 709711: Blackbow Consult Limited
+7/3/25, 10:37 AM - +254 720 709711: Blackbow Insurance Limited
+7/3/25, 10:42 AM - Fanne Mwambi: Okay, thanks for the clarification
+7/3/25, 10:44 AM - +254 728 552225: Hi @130322477932659 the minor amendments on the web also amend on the profiles.(For the contact and physical address)
+7/3/25, 10:44 AM - Fanne Mwambi: Yes, thank you Susan. I got them
+7/3/25, 10:58 AM - Fanne Mwambi: Shall we retain Kenya Alliance, Intra Africa and Jubilee Insurance?
+7/3/25, 10:58 AM - +254 720 709711: Yes
+7/3/25, 10:58 AM - +254 720 709711: Had forgotten to mention them
+7/3/25, 10:58 AM - Fanne Mwambi: alright
+7/4/25, 3:52 PM - Fanne Mwambi: <Media omitted>
+7/4/25, 3:52 PM - Fanne Mwambi: <Media omitted>
+7/4/25, 3:53 PM - Fanne Mwambi: Good afternoon, Please take a look at the profiles as amended and advice if we require any further edits.
+7/4/25, 3:59 PM - +254 728 552225: <Media omitted>
+7/4/25, 4:38 PM - Fanne Mwambi: Ok.. any other?
+7/4/25, 4:39 PM - +254 728 552225: Is good 👍 
+@72997314535571 ?
+7/4/25, 4:40 PM - +254 720 709711: We should be ok once the contacts are sorted
+7/4/25, 5:17 PM - Fanne Mwambi: Okay, great!
+7/4/25, 5:18 PM - Fanne Mwambi: I'll amend and share.
+7/7/25, 4:29 PM - Fanne Mwambi: <Media omitted>
+7/7/25, 4:51 PM - Fanne Mwambi: <Media omitted>
+7/7/25, 5:10 PM - +254 728 552225: Contact on this is yet to reflect the amendment
+7/7/25, 5:11 PM - Fanne Mwambi: oH, let me see
+7/7/25, 5:21 PM - Fanne Mwambi: Sorry for that
+7/7/25, 5:22 PM - Fanne Mwambi: <Media omitted>
+7/7/25, 5:23 PM - +254 728 552225: Looks good 👍
+7/7/25, 5:26 PM - Fanne Mwambi: Great! I'll send them to your email, including the editable PPTs (these are quite heavy), but Google Drive should do the trick. <This message was edited>
+7/7/25, 5:28 PM - Fanne Mwambi: But feel free to request any amendments at any time. I don't charge extra for minor changes to the existing design.
+7/7/25, 5:28 PM - Fanne Mwambi: is the info@... email active?
+7/7/25, 5:41 PM - B!: Hi, it should be.
+7/7/25, 5:42 PM - Fanne Mwambi: Ok thanks, Brian
+7/7/25, 6:10 PM - +254 728 552225: It isn’t.We couldn’t log in.
+7/7/25, 6:18 PM - B!: Let me check once I get to my comp
+7/7/25, 9:23 PM - B!: <Media omitted>
+7/7/25, 9:27 PM - B!: Webmail Login: http://blackbowconsult.co.ke/webmail
+Username: info@blackbowconsult.co.ke
+Password: 64kCJkUTQQ;C
+7/7/25, 9:28 PM - B!: For security reasons, please change your password immediately after logging in, as it is shared publicly.
+7/7/25, 9:31 PM - B!: The following is a step-by-step guide to managing mail in the current cPanel platform. This guide will be available in your website's admin panel for future reference.
+7/7/25, 9:33 PM - B!: <Media omitted>
+7/7/25, 9:35 PM - B!: Then, enter the provided credentials:
+ Username: info@blackbowconsult.co.ke 
+Password: 64kCJkUTQQ;C
+7/7/25, 11:13 PM - +254 720 709711: Noted
+7/9/25, 1:33 PM - Fanne Mwambi: Let me know if its ok now
+7/9/25, 1:40 PM - +254 728 552225: It is.I managed to log in.
+7/9/25, 2:16 PM - Fanne Mwambi: Aaah ok, sending the docs shortly. Meanwhile, Brian was on standby to go live pending your feedback, but we have agreed he goes live then fix any changes you may have afterwards. He will advice one this is effected.
+7/9/25, 2:17 PM - Fanne Mwambi: I am also working on the second invoice.
+7/9/25, 2:29 PM - +254 728 552225: That’s in order.
+7/11/25, 4:19 PM - Fanne Mwambi: Good afternoon, I have shared the profiles to your emails
+7/11/25, 4:48 PM - Fanne Mwambi: Brian has initiated to have the domain moved... the process has been initiated and we are waiting for the notification once the process is complete. He advised it would take about a day or two so this should be any moment from today. <This message was edited>
+7/11/25, 4:49 PM - Fanne Mwambi: Among the updates is the articles we promised... we're still working on them and will share once done for your approval
+7/11/25, 4:57 PM - Fanne Mwambi: I believe @254729812144  you're on the next website already? He promised this would move much faster.
+7/11/25, 4:58 PM - Fanne Mwambi: 😁
+7/11/25, 4:58 PM - B!: Yes, I am using  WordPress on the next build, should be able to present it at the end of this coming week
+7/11/25, 5:06 PM - +254 728 552225: Well received
+7/11/25, 5:28 PM - Fanne Mwambi: I have shared the second invoice as well.
+7/11/25, 5:42 PM - +254 720 709711: Well noted
+7/12/25, 12:31 PM - Fanne Mwambi: Good afternoon, I think it's necessary that I mention that Brian offered to cater for the domain and hosting costs for the website as an appreciation for your patience, given he was using a new technology for your website. This explains why the costs remain as they were in our contract.
+7/12/25, 12:58 PM - +254 720 709711: Well noted
+7/14/25, 11:14 AM - +254 720 709711: Good Morning Great people, how far are we on this?
+7/14/25, 11:15 AM - +254 720 709711: We have also perused and acknowledged the Final Invoice
+7/14/25, 11:15 AM - +254 720 709711: Thanks
+7/14/25, 11:21 AM - Fanne Mwambi: Thank you, @254729812144 please share an update
+7/14/25, 12:42 PM - B!: Hi, I requested the transfer, on my end it's to wait for them to get back to me but they said they initiated the process it was to take a day or 2 from Thursday afternoon. So that meant Friday and today (counting working days) I emailed in the morning again they just responded with saying I  will get an email once the transfer is completed
+7/14/25, 12:42 PM - B!: As for the next website, I hope to have it ready to share by friday
+7/14/25, 1:27 PM - Fanne Mwambi: Thanks Brian <This message was edited>
+7/14/25, 1:49 PM - +254 728 552225: Well noted.
+7/21/25, 1:37 PM - Fanne Mwambi: Good afternoon, all
+7/21/25, 1:41 PM - Fanne Mwambi: The site https://www.blackbowconsult.co.ke/ is up and running, and Brian has been fine-tuning it.. I've also been going through the copy, but I thought we could all go through it and recommend any changes...
+7/25/25, 10:04 AM - Fanne Mwambi: Good morning all, Have you been able to check the account?
+7/25/25, 10:09 AM - +254 720 709711: Hello, going through the site
+7/25/25, 10:10 AM - +254 720 709711: The accounts aren't logging in looks like the domain needs reactivation
+7/25/25, 10:11 AM - Fanne Mwambi: The emails?
+7/25/25, 10:12 AM - Fanne Mwambi: Sorry, I was referring to the website... but @254729812144 please look into the accounts?
+7/25/25, 10:15 AM - +254 720 709711: <Media omitted>
+7/25/25, 10:15 AM - B!: Hi, I just noted yesterday while working on optimisation that, moving the site from cpanel also moved the email accounts, I emailed the host to request that they maintain the emails where they were since we paid for that space and only move the site. Let me follow up on that and update you guys as soon as I have their feedback.
+7/25/25, 10:15 AM - +254 720 709711: Second Floor suite 203
+7/25/25, 10:16 AM - +254 720 709711: <Media omitted>
+7/25/25, 10:17 AM - B!: Also, are the changes so far highlighted on the first site the only required changes? I am making changes on my local copy, which will replace the live site so it is important that I have all the feedback now before I upload my local copy.
+7/25/25, 10:17 AM - +254 720 709711: Partner banks 
+Consolidated Bank
+Smep Bank 
+Family Bank 
+Middle East Bank 
+Credit Bank
+7/25/25, 10:17 AM - +254 720 709711: I'm seeing alot of items yet to be edited Brian
+7/25/25, 10:17 AM - +254 720 709711: Good morning
+7/25/25, 10:19 AM - +254 720 709711: <Media omitted>
+7/25/25, 10:19 AM - +254 720 709711: Let's work with 3 years
+7/25/25, 10:19 AM - B!: Changes are on the local copy, once all feedback is given, I will replace the live site with the one on my machine.
+7/25/25, 10:19 AM - +254 720 709711: Ooh sawa
+7/25/25, 10:20 AM - +254 720 709711: How far are we ?
+7/25/25, 10:20 AM - +254 720 709711: Is there any further input you need?
+7/25/25, 10:21 AM - B!: Can we have a meeting on Monday or Tuesday? If I can have  any remaining changes today, I can wrap up and upload the final copy by weekend. I would also like to walk you guys through the finance site during that meeting
+7/25/25, 10:22 AM - B!: Are there any more changes?
+7/25/25, 10:23 AM - Fanne Mwambi: I had shared my imput as well, I think we can agree on the Monday meeting so we close this?
+7/25/25, 10:23 AM - +254 720 709711: Monday is fine
+7/25/25, 10:25 AM - B!: Sawa, let me know if anything else needs fixing before then. I'm hoping to replace the live copy with the final version, at least for now.
+7/25/25, 10:25 AM - +254 720 709711: Allow me do quick testimonials and send on mail
+7/25/25, 10:25 AM - +254 720 709711: Today
+7/25/25, 10:25 AM - +254 720 709711: For inclusion
+7/25/25, 10:26 AM - B!: Also provide more gallery images if possible.
+7/25/25, 12:58 PM - +254 720 709711: Ok
+7/25/25, 6:15 PM - +254 720 709711: <Media omitted>
+7/25/25, 6:15 PM - +254 720 709711: @15109845946531 this is a testimonial from one of our clients in Eldoret
+7/25/25, 6:16 PM - +254 720 709711: I have included the same in word testimonial summary on mail
+7/27/25, 9:18 AM - B!: Noted, let me add them to the site, can I kindly ask that our meeting be pushed to Tuesday afternoon, Mondays are my  busiest, I should be able to hand over both sites on Tuesday 2:30 pm -  3:30pm, if that is fine with you guys.
+7/27/25, 9:19 AM - +254 720 709711: Good morning Tuesday we can deal
+7/27/25, 9:19 AM - B!: Sawa, thanks, kindly set up the online meeting when able.
+7/27/25, 9:21 AM - +254 720 709711: Will do
+7/27/25, 9:22 AM - Fanne Mwambi: Good morning, oh, okay, thanks for the update Brian
+7/28/25, 12:39 PM - Fanne Mwambi: Good afternoon, hope you're all well. 
+
+Given the speed of the due part of the project? I recommend that rather than combining the remaining due payment, you could settle the most recent invoice I shared asap so that I invoice the remaining balance once we have your approval of the complete work. Do advise if this works for you. <This message was edited>
+7/29/25, 1:25 PM - +254 720 709711: Good afternoon this can work
+7/29/25, 1:25 PM - +254 720 709711: Good afternoon great people, in light of Brians schedule for the day, are we comfortable with having the meeting start at 5pm this evening?
+7/29/25, 1:26 PM - +254 720 709711: Kindly let us confirm accordingly for set up
+7/29/25, 1:31 PM - Fanne Mwambi: Hi, would you be okay proceeding without me? I have class between 4:30 - 8pm so I may not manage this timeline. However, Brian can brief me right after so I don't delay you?
+7/30/25, 9:27 AM - Fanne Mwambi: Good morning, all.
+7/30/25, 9:28 AM - +254 720 709711: Good morning Fanne
+7/30/25, 9:28 AM - +254 720 709711: We scheduled the meeting to Thursday at 4 o'clock Godwilling
+7/30/25, 9:29 AM - Fanne Mwambi: Thank you, Arnold, yes,  I will be available all through from tomorrow so that's ok with me.
+7/30/25, 9:36 AM - +254 720 709711: Sawa sawa
+7/31/25, 3:10 PM - +254 720 709711: Good afternoon great people I trust we are well
+7/31/25, 3:10 PM - +254 720 709711: Setting up meeting for 4 o'clock
+7/31/25, 3:10 PM - +254 720 709711: Thanks
+7/31/25, 3:10 PM - Fanne Mwambi: Good afternoon, Arnold. Very well
+7/31/25, 4:21 PM - +254 728 552225: 0780 085 381
+Insurance
+7/31/25, 4:23 PM - +254 728 552225: The number to use for WhatsApp even for the other website
+7/31/25, 4:28 PM - +254 728 552225: 0728 552 225
+
+For ‘Contact Us’ sections on the websites
+7/31/25, 4:35 PM - B!: https://bb.takemetobusiasafaris.com/
+7/31/25, 4:36 PM - +254 720 709711: Noted
+8/1/25, 4:07 PM - B!: Good afternoon, team. A request to resolve the hosting and email issue has been submitted to kenyawebexperts.com, our hosting company, as detailed below.
+8/1/25, 4:09 PM - B!: Good Morning,
+
+Thank you again for your help.
+
+I would like to achieve the following setup:
+
+1. The main domain `blackbowconsult.co.ke` should remain pointed to Vercel using these DNS records from my Vercel account:
+
+A Record:
+Type: A  
+Host: @  
+Value: 76.76.21.21  
+
+CNAME Record:
+Type: CNAME  
+Host: www  
+Value: cname.vercel-dns.com.
+
+2. I would like to host subdomains (e.g., `finance.blackbowconsult.co.ke`, `blog.blackbowconsult.co.ke`) on my original CPanel hosting account, where I will install WordPress and other tools.
+
+3. I would also like to continue using email services (so **please do not change the MX records**).
+
+Kindly assist by:
+
+- Setting the necessary **A records** for each subdomain to point to my CPanel server
+- Or sharing with me the **correct IP address** I should use to do it myself
+
+Also, since `blackbowconsult.co.ke/cpanel` now redirects to Vercel, please confirm the **direct login link or IP** I should now use to access CPanel.
+
+Thank you for your continued support.
+
+Kind regards,  
+Brian
+8/1/25, 4:13 PM - B!: I've been informed that this process could take 24 hours or more. Since their team only working half day tomorrow, website and email updates may only be visible on Monday.
+8/1/25, 4:15 PM - +254 720 709711: Well noted
+8/1/25, 4:17 PM - Fanne Mwambi: Thank you for the update, Brian.
+8/1/25, 4:17 PM - B!: 👍🏾
+8/1/25, 5:27 PM - Fanne Mwambi: We're also looking forward to the second deposit as mentioned yesterday. 🙏
+8/1/25, 7:48 PM - +254 720 709711: Will facilitate Pole for the delay
+8/6/25, 12:23 AM - B!: You deleted this message
+8/6/25, 12:23 AM - B!: https://insurance.blackbowconsult.co.ke/
+8/6/25, 12:24 AM - B!: hi team, the Insurance website is now online. You can access it using the link above.
+8/6/25, 8:33 AM - Fanne Mwambi: Good morning
+8/6/25, 8:44 AM - +254 728 552225: Good morning @130322477932659
+8/6/25, 8:46 AM - Fanne Mwambi: Im on the sites, checking them out. Now we can share our final feedback on both pages.
+8/6/25, 8:52 AM - +254 720 709711: Good morning great people <This message was edited>
+8/6/25, 8:55 AM - Fanne Mwambi: @15109845946531 the same way we have a link moving is from Blackbow insurance to BB consult, could we have the same sending us back to the insurance page from the Consut?
+8/6/25, 8:57 AM - +254 720 709711: This is a good proposition
+8/6/25, 8:57 AM - +254 720 709711: I'm checking it shortly
+8/6/25, 10:14 AM - B!: Hi, the above is noted, I'm a bit tied up at work will work on changes afterwards.
+8/6/25, 11:36 AM - Fanne Mwambi: Okay, I'll share my edit suggestions here as well so we don't repeat them..
+8/6/25, 11:52 AM - Fanne Mwambi: <Media omitted>
+8/6/25, 11:52 AM - Fanne Mwambi: This message was deleted
+8/6/25, 11:53 AM - Fanne Mwambi: <Media omitted>
+8/6/25, 11:54 AM - Fanne Mwambi: <Media omitted>
+8/6/25, 11:54 AM - +254 720 709711: I had sent these on mail, @15109845946531 kindly check your emails
+8/6/25, 11:54 AM - +254 720 709711: I kept us in copy
+8/6/25, 11:54 AM - Fanne Mwambi: <Media omitted>
+8/6/25, 11:55 AM - Fanne Mwambi: Yes, I believe he has them
+8/6/25, 11:55 AM - +254 720 709711: Also we had mentioned ai pics with African faces
+8/6/25, 11:56 AM - Fanne Mwambi: <Media omitted>
+8/6/25, 11:56 AM - Fanne Mwambi: Yes, these were implemented in the insurance website...
+8/6/25, 11:57 AM - +254 720 709711: Aligned
+8/6/25, 11:57 AM - Fanne Mwambi: <Media omitted>
+8/6/25, 12:01 PM - Fanne Mwambi: <Media omitted>
+8/6/25, 12:15 PM - Fanne Mwambi: Also, check the homepage of the Insurance webpage... 
+
+And. I'm not sure if Arnold and Susan will agree, but I recommend fading out the orange into  black or grey instead of red at the very bottom at the contacts page. <This message was edited>
+8/6/25, 12:17 PM - +254 720 709711: The idea was to blend what was more visible like the second page
+8/6/25, 12:18 PM - Fanne Mwambi: Indeed yes
+8/6/25, 12:31 PM - Fanne Mwambi: Besides the blog articles..we are reviewing I think that's all from me.
+8/7/25, 11:35 AM - Fanne Mwambi: Good morning all, Brian advises that we should have all edits for both websites done by COB tomorrow.
+8/7/25, 11:36 AM - +254 720 709711: Noted
+8/7/25, 12:22 PM - +254 720 709711: <Media omitted>
+8/7/25, 12:22 PM - +254 720 709711: We have an overlap, @15109845946531 kindly check
+8/7/25, 12:23 PM - +254 720 709711: <Media omitted>
+8/7/25, 12:23 PM - +254 720 709711: Work with one year
+8/7/25, 12:35 PM - Fanne Mwambi: Yes, I noted this as well
+8/11/25, 10:33 AM - Fanne Mwambi: Good morning, @254729812144 pls share an update on the progress?
+8/11/25, 12:22 PM - B!: Waiting for latest version to reflect, I pushed changes on Friday evening but it has not reflected, I have raised a ticket with the U.S host. Might be a Caching issue, waiting to hear from them.
+8/11/25, 12:23 PM - Fanne Mwambi: Okay, thanks, Brian
+8/11/25, 12:23 PM - B!: Let us give it till evening, I will also try and clear the Cache from my end after work.

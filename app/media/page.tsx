@@ -22,12 +22,15 @@ export default function MediaPage() {
 
       {/* Hero Section */}
       <InnerHero>
-        <h1 className="hero-title text-white">
-            Explore Our Journey
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FFBE00] to-[#00B1D2]">
-                in Picture & Motion
-            </span>
-        </h1>
+        <div className="space-y-6 text-center">
+          <h1 className="hero-title text-white whitespace-nowrap">
+            Explore Our Journey <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFBE00] to-[#00B1D2]">in Picture &amp; Motion</span>
+          </h1>
+          <p className="text-white/90 max-w-3xl mx-auto">
+            Browse curated moments from events, client engagements, and milestones—captured through photos and
+            videos that tell the story of Blackbow’s impact and growth.
+          </p>
+        </div>
       </InnerHero>
 
       {/* Info Cards Section - Overlapping Design */}

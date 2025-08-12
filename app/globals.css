@@ -104,6 +104,23 @@
   }
 }
 
+/* Ensure no horizontal scroll and pages use full viewport width */
+html, body {
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Defensive: prevent children from expanding viewport width */
+img, video, canvas, svg {
+  max-width: 100%;
+}
+
+/* Contacts page scoped overrides: show placeholders as field titles, hide labels */
+.contacts-page .contact-card label { display: none !important; }
+/* Always show and style the privacy checkbox label */
+.contacts-page .contact-card .flex.items-start label { display: inline !important; color: #000 !important; }
+
 /* Font Family Definitions using CSS variables set by Next.js fonts */
 .font-serif {
   font-family: var(--font-italiana), "Italiana", serif;

@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const fromEmail = 'noreply@blackbowconsult.co.ke'; // Changed for production
+const fromEmail = process.env.RESEND_FROM_EMAIL || 'noreply@blackbowconsult.co.ke';
+const toEmail = process.env.CONTACT_TO_EMAIL || 'info@blackbowconsult.co.ke';
 
 export async function POST(req: NextRequest) {
   // Check if the API key is available
@@ -30,7 +31,7 @@ export async function POST(req: NextRequest) {
 
     const { data, error } = await resend.emails.send({
       from: fromEmail,
-      to: ['websitec2a@blackbowconsult.co.ke'], // Changed back for production
+      to: [toEmail],
       subject: subject,
       html: emailBody,
     });

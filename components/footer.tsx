@@ -6,6 +6,7 @@ import { FaLinkedinIn, FaFacebookF, FaTwitter, FaInstagram } from "react-icons/f
 import { useTheme } from "next-themes"
 import { useState, useEffect } from "react"
 import Newsletter from "./Newsletter"
+import { CANONICAL_ADDRESS, CANONICAL_MAPS_URL, WHATSAPP_URL } from "@/lib/constants"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -24,12 +25,12 @@ export default function Footer() {
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Image src="/logo.png" alt="BlackbowConsult Logo" width={120} height={40} className="h-10 w-auto" />
-              <span className="font-heading font-bold text-xl text-[#FFBE00]">blackbow</span>
+              <Image src="/logo.png" alt="Blackbow Consult Logo" width={120} height={40} className="h-10 w-auto" />
+              <span className="font-heading font-bold text-xl text-[#FFBE00]">Blackbow</span>
             </div>
             <p className="text-gray-400 max-w-xs text-sm sm:text-base">
               Home of your customized trade finance solutions in Kenya and across Africa.
@@ -149,15 +150,16 @@ export default function Footer() {
             <ul className="space-y-2 mb-6">
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" style={{ color: "#FFBE00" }} />
-                <span className="text-gray-400 text-sm sm:text-base">Nairobi, Kenya</span>
+                <a href={CANONICAL_MAPS_URL} target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm sm:text-base underline-offset-2 hover:underline">{CANONICAL_ADDRESS}</a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4" style={{ color: "#FFBE00" }} />
-                <span className="text-gray-400 text-sm sm:text-base">0720-709711 / 0786525716</span>
+                <span className="text-gray-400 text-sm sm:text-base">+254 728 552 225 / +254 720 709 711</span>
+                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="ml-2 text-[#25D366] hover:underline underline-offset-2">WhatsApp</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" style={{ color: "#FFBE00" }} />
-                <span className="text-gray-400 text-sm sm:text-base">info@blackbow.co.ke</span>
+                <a href="mailto:info@blackbowconsult.co.ke" className="text-gray-400 text-sm sm:text-base underline-offset-2 hover:underline">info@blackbowconsult.co.ke</a>
               </li>
             </ul>
 
@@ -199,7 +201,7 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="border-t border-gray-800 mt-8 pt-6 text-center">
           <p className="text-gray-400 text-xs sm:text-sm">
-            &copy; {currentYear} <span className="text-[#FFBE00]">BlackbowConsult Co. Ltd.</span> All rights reserved.
+            &copy; {currentYear} <span className="text-[#FFBE00]">Blackbow Consult Co. Ltd.</span> All rights reserved.
           </p>
         </div>
       </div>

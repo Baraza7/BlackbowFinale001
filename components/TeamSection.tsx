@@ -31,14 +31,20 @@ const teamMembers = [
     name: "Allan Juma",
     position: "Operations Officer",
     bio: "Allan specializes in trade finance operations, reconciliations, and data management."
+  },
+  {
+    image: "/Faith Kemboi.png",
+    name: "Faith Kemboi",
+    position: "Relationship Officer",
+    bio: "Proactive Relationship Officer skilled in trade finance and insurance advisory. Experienced in structuring bid bonds, guarantees, and WIBA policies. Strong in client relations, compliance, and delivering tailored risk solutions. Also offers skills in design, web development, and digital marketing."
   }
 ];
 
 const TeamSection: React.FC = () => {
   // First row: Arnold, Susan, Nelly
   const firstRow = teamMembers.slice(0, 3);
-  // Second row: Ruth, Allan, and the special yellow card
-  const secondRow = teamMembers.slice(3, 5); // Ruth and Allan
+  // Second row: Ruth, Allan, Faith
+  const secondRow = teamMembers.slice(3, 6); // Ruth, Allan, and Faith
 
   return (
     <section 
@@ -70,7 +76,7 @@ const TeamSection: React.FC = () => {
           ))}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Ruth and Allan in the second row */}
+          {/* Ruth, Allan, and Faith in the second row */}
           {secondRow.map((member, idx) => (
             <TeamCard
               key={member.name}
@@ -80,12 +86,6 @@ const TeamSection: React.FC = () => {
               bio={member.bio}
             />
           ))}
-          {/* Special yellow card with same height as other cards */}
-          <div className="team-card-container font-montserrat border-[3px] border-[var(--accent-yellow)] rounded-2xl bg-[var(--accent-yellow)] flex items-end justify-end p-6 relative" style={{boxShadow: '0 0 15px rgba(248, 224, 142, 0.5)'}}>
-            <span className="absolute bottom-6 right-6 text-3xl font-bold text-black text-right leading-tight font-italiana">
-              Our <br/> Team
-            </span>
-          </div>
         </div>
       </div>
     </section>

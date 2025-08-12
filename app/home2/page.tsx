@@ -293,9 +293,9 @@ export default function Home2Page() {
           <ResponsiveContainer className="px-4 md:px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xs:gap-12 items-center">
               <div>
-                <h2 className="section-heading mb-4 xs:mb-6">About Black Bow Consult</h2>
+                <h2 className="section-heading mb-4 xs:mb-6">About Blackbow Consult</h2>
                 <p className="section-description mb-4 xs:mb-6">
-                  Founded in 2014, Black Bow Consult Co. Ltd. empowers African businesses by providing financial
+                  Founded in 2014, Blackbow Consult Co. Ltd. empowers African businesses by providing financial
                   solutions that unlock growth and success. We provide trade finance, insurance, and investment advisory
                   services across multiple sectors including transport, manufacturing, real estate, aviation, ICT,
                   education, and agribusiness.
@@ -316,7 +316,7 @@ export default function Home2Page() {
               <div className="relative h-64 xs:h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
                 <Image
                   src="/about-preview.jpg"
-                  alt="About Black Bow Consult"
+                  alt="About Blackbow Consult"
                   fill
                   className="object-cover object-center transform hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -393,7 +393,7 @@ export default function Home2Page() {
                 Ready to Elevate Your Business?
               </h2>
               <p className="text-lg xs:text-xl text-white/90 mb-6 xs:mb-8 max-w-2xl mx-auto leading-relaxed">
-                Let's discuss how Black Bow Consult can provide the financial solutions you need to achieve your goals.
+                Let's discuss how Blackbow Consult can provide the financial solutions you need to achieve your goals.
                 Contact us today for a personalized consultation.
               </p>
               <Link href="/contacts">

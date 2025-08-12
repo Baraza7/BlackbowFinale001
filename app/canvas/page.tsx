@@ -159,13 +159,13 @@ export default function CanvasPage() {
                         Contract/Guarantee Amount (KES)
                       </label>
                       <div className="relative">
-                        <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+                        <div className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 font-semibold text-sm">Ksh</div>
                         <input
                           type="number"
                           value={guaranteeAmount}
                           onChange={(e) => setGuaranteeAmount(e.target.value)}
                           placeholder="Enter amount"
-                          className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FFBE00]"
+                          className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FFBE00]"
                         />
                       </div>
                     </div>
@@ -257,13 +257,13 @@ export default function CanvasPage() {
                         Initial Investment Amount (KES)
                       </label>
                       <div className="relative">
-                        <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+                        <div className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 font-semibold text-sm">Ksh</div>
                         <input
                           type="number"
                           value={investmentAmount}
                           onChange={(e) => setInvestmentAmount(e.target.value)}
                           placeholder="Enter investment amount"
-                          className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FFBE00]"
+                          className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FFBE00]"
                         />
                       </div>
                     </div>

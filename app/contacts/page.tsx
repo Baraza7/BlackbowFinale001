@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Mail, MapPin, Phone, MessageSquare, Briefcase, Handshake } from "lucide-react"
+import { Mail, MapPin, Phone, FileText } from "lucide-react"
+import { CANONICAL_ADDRESS, CANONICAL_MAPS_URL, WHATSAPP_URL } from "@/lib/constants"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { InfoCard } from "@/components/InfoCard"
@@ -11,58 +12,68 @@ import ContactForm from "@/components/contact-form"
 
 export default function ContactsPage() {
   return (
-    <div className="min-h-screen bg-white text-gray-800">
+    <div className="min-h-screen bg-white text-gray-800 contacts-page">
       <Header />
 
       <main>
-        {/* Hero Section */}
-        <section className="relative py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: "url('/ContactsHero1.png')" }}>
-          <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="container mx-auto px-4 relative z-10 text-center text-white">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Contact Us</h1>
-            <p className="text-lg md:text-xl max-w-3xl mx-auto">
-              Welcome to our contacts page. In this section, you will find all the information you need to reach out to us on any queries, feedback, or partnership opportunities. We are dedicated to providing seamless support and fostering strong relationships with our clients and partners.
+        {/* Shared Hero Section (matches other pages) */}
+        <InnerHero>
+          <div className="space-y-6 text-center">
+            <h1 className="hero-title text-white whitespace-nowrap">
+              Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFBE00] to-[#00B1D2]">Us</span>
+            </h1>
+            <p className="text-white/90 max-w-3xl mx-auto">
+              Welcome to our Contacts page. Our team is ready to answer questions, support ongoing engagements,
+              and explore new partnerships. Reach us by phone or email, or visit our Nairobi office during business hours.
             </p>
+          </div>
+        </InnerHero>
+
+        {/* Overlapping Info Cards Section (matches other pages) */}
+        <section className="relative -mt-24 pb-20">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-0 max-w-5xl mx-auto">
+              <InfoCard icon={<FileText className="h-8 w-8 text-white" />} title="Postal Address">
+                <p className="text-sm">Blackbow Consult Ltd., P.O. Box 203, Nairobi – Kenya</p>
+              </InfoCard>
+              <InfoCard icon={<Phone className="h-8 w-8 text-white" />} title="Contacts">
+                <p className="text-sm">+254 728 552 225 / +254 720 709 711</p>
+                <p className="text-sm">info@blackbowconsult.co.ke</p>
+                <p className="text-sm mt-2">
+                  <a
+                    href={WHATSAPP_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#25D366] underline-offset-2 hover:underline"
+                  >
+                    Chat on WhatsApp
+                  </a>
+                </p>
+              </InfoCard>
+              <InfoCard icon={<MapPin className="h-8 w-8 text-white" />} title="Physical Address">
+                <p className="text-sm">
+                  <a href={CANONICAL_MAPS_URL} target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">{CANONICAL_ADDRESS}</a>
+                </p>
+              </InfoCard>
+            </div>
           </div>
         </section>
 
         {/* Contact Form Section */}
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div className="md:col-span-1">
-                  <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
-                  <ContactForm />
-                </div>
-                <div className="md:col-span-1">
-                  <h3 className="text-2xl font-bold mb-6">Our Office</h3>
-                  <div className="space-y-4">
-                    <p className="flex items-start">
-                      <MapPin className="w-6 h-6 mr-4 mt-1 text-yellow-500" />
-                      <span>Wing A, 4th Floor, Suite A5, ABC Place, Waiyaki Way, Nairobi, Kenya</span>
-                    </p>
-                    <p className="flex items-center">
-                      <Phone className="w-6 h-6 mr-4 text-yellow-500" />
-                      <span>0720-709711 / 0786525716</span>
-                    </p>
-                    <p className="flex items-center">
-                      <Mail className="w-6 h-6 mr-4 text-yellow-500" />
-                      <span>info@blackbow.co.ke</span>
-                    </p>
-                  </div>
-                  <div className="mt-8">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.841582828228!2d36.78854931534493!3d-1.267198999075727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17515a20857d%3A0x805781328674259a!2sABC%20Place!5e0!3m2!1sen!2ske!4v1629896749382!5m2!1sen!2ske"
-                      width="100%"
-                      height="300"
-                      style={{ border: 0 }}
-                      allowFullScreen
-                      loading="lazy"
-                      title="Google Maps Location of ABC Place"
-                    ></iframe>
-                  </div>
-                </div>
+            <div className="max-w-4xl mx-auto relative">
+              {/* Subtle branded glow */}
+              <div className="pointer-events-none absolute -inset-[1px] rounded-3xl" style={{ background: "linear-gradient(135deg, rgba(255,190,0,0.25), rgba(255,255,255,0.05))" }} />
+              {/* Glass / floating card */}
+              <div className="contact-card relative rounded-3xl border border-black/10 shadow-2xl p-6 sm:p-8 md:p-10"
+                   style={{
+                     background: '#FFBE00',
+                     boxShadow: '0 25px 60px rgba(0,0,0,0.35), 0 10px 25px rgba(0,0,0,0.25)'
+                   }}
+              >
+                <h2 className="text-3xl font-bold mb-6 text-[#D01C1F] text-center md:text-left">Get in Touch</h2>
+                <ContactForm />
               </div>
             </div>
           </div>

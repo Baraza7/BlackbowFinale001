@@ -18,7 +18,7 @@ export function FaqTabs() {
         "We specialize in a range of financial solutions including innovative Trade Finance, comprehensive Insurance solutions, and expert Investment Advisory services. Our goal is to provide seamless, tailor-made support that unlocks growth and success for your business.",
     },
     {
-      question: "Which sectors does Black Bow Consult work with?",
+      question: "Which sectors does Blackbow Consult work with?",
       answer:
         "We have a broad portfolio and provide expert financial consultancy across multiple key sectors. This includes Transport and Logistics, Manufacturing, Real Estate, Aviation, ICT, Education, and Agribusiness.",
     },

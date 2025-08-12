@@ -24,7 +24,7 @@ const services = [
       href: "/services/performance-guarantees"
     },
     {
-      icon: <DollarSign size={40} />,
+      icon: <div className="flex items-center justify-center font-bold text-3xl" style={{ width: '40px', height: '40px' }}>Ksh</div>,
       title: "Advance Payment Guarantees",
       description: "Issued on behalf of our clients to secure upfront payments for jobs awarded but not yet executed, enabling project mobilization.",
       href: "/services/advance-payment-guarantees"
@@ -58,19 +58,22 @@ export default function ServicesPage() {
 
       {/* Hero Section */}
       <InnerHero>
-        <h1 className="hero-title text-white">
-            Our Comprehensive
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#FFBE00] to-[#00B1D2]">
-                Solutions
-            </span>
-        </h1>
+        <div className="space-y-6 text-center">
+          <h1 className="hero-title text-white whitespace-nowrap">
+            Our Comprehensive <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFBE00] to-[#00B1D2]">Solutions</span>
+          </h1>
+          <p className="text-white/90 max-w-3xl mx-auto">
+            Explore our full range of trade finance, insurance, and advisory services—designed to unlock growth,
+            protect projects, and keep your business moving with confidence.
+          </p>
+        </div>
       </InnerHero>
 
       {/* Info Cards Section - Overlapping Design */}
       <section className="relative -mt-24 pb-20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-0 max-w-5xl mx-auto">
-            <InfoCard icon={<DollarSign className="h-8 w-8 text-white" />} title="Affordable">
+            <InfoCard icon={<div className="h-8 w-8 text-white flex items-center justify-center font-bold text-lg">Ksh</div>} title="Affordable">
               <p className="text-sm">Tailored solutions that fit your budget.</p>
             </InfoCard>
             <InfoCard icon={<Zap className="h-8 w-8 text-white" />} title="Efficient">
@@ -91,7 +94,7 @@ export default function ServicesPage() {
               Empowering Your Business Through Our Expertise
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Discover the full range of financial solutions and advisory services Black Bow Consult Ltd. offers. We pride ourselves on delivering tailor-made strategies that drive growth, mitigate risks, and ensure your success across various sectors in Kenya and Africa. Our expertise spans critical areas designed to meet the evolving needs of modern businesses.
+              Discover the full range of financial solutions and advisory services Blackbow Consult Ltd. offers. We pride ourselves on delivering tailor-made strategies that drive growth, mitigate risks, and ensure your success across various sectors in Kenya and Africa. Our expertise spans critical areas designed to meet the evolving needs of modern businesses.
             </p>
           </div>
         </div>

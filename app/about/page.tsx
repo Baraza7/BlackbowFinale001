@@ -3,6 +3,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Quote, CheckCircle, Users, Award, TrendingUp, ArrowRight } from "lucide-react"
+import { YEARS_OF_EXCELLENCE } from "@/lib/constants"
 import { Button } from "@/components/ui/button"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
@@ -31,6 +32,10 @@ export default function AboutPage() {
               African Business
             </span>
           </h1>
+          <p className="text-white/90 max-w-3xl mx-auto">
+            Learn who we are, what we stand for, and how we empower businesses across Africa with tailored
+            financial solutions. Discover our story, values, and the people behind Blackbow Consult.
+          </p>
         </div>
       </InnerHero>
 
@@ -38,7 +43,7 @@ export default function AboutPage() {
       <section className="relative -mt-16 pb-20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-4 gap-0 max-w-6xl mx-auto">
-            <StatCard icon={<TrendingUp className="h-8 w-8 text-white" />} value={10} label="Years of Excellence" />
+            <StatCard icon={<TrendingUp className="h-8 w-8 text-white" />} value={YEARS_OF_EXCELLENCE} label="Years of Excellence" />
             <StatCard icon={<Users className="h-8 w-8 text-white" />} value={250} label="Satisfied Clients" />
             <StatCard icon={<Award className="h-8 w-8 text-white" />} value={500} label="Trade Finance Facilitated" />
             <StatCard icon={<CheckCircle className="h-8 w-8 text-white" />} value={100} label="Success Rate" />
@@ -173,15 +178,15 @@ export default function AboutPage() {
       </div>
 
       {/* TeamIntro Section */}
-      <section id="TeamIntro" className="relative py-[10%] bg-white">
+      <section id="TeamIntro" className="relative pt-[10%] pb-0 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-2 max-[600px]:grid-cols-1 gap-8 items-center">
-            <div className="relative h-80">
+            <div className="relative h-[40rem]">
               <Image
-                src="/MoneyTree.png"
-                alt="Money Tree"
+                src="/Arnald-CEO1.png"
+                alt="Arnald CEO"
                 fill
-                className="object-contain rounded-lg"
+                className="object-contain object-bottom"
               />
             </div>
             <div className="text-black">
@@ -199,8 +204,10 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section - Modern Grid */}
-      <TeamSection />
+      {/* Team Section - Modern Grid (pulled up to touch the image bottom) */}
+      <div className="-mt-8 md:-mt-12 lg:-mt-16">
+        <TeamSection />
+      </div>
       
       {/* Gallery Section */}
       <section className="py-24 bg-white">

@@ -230,21 +230,21 @@ export default function RequirementsPage() {
                 <Phone className="h-6 w-6 text-[#FFBE00]" />
               </div>
               <h3 className="font-sans font-semibold text-lg mb-2">Call Us</h3>
-              <p className="text-gray-300">0720-709711 / 0786525716</p>
+              <p className="text-gray-300">+254 728 552 225 / +254 720 709 711</p>
             </div>
             <div className="flex flex-col items-center">
               <div className="h-12 w-12 rounded-full bg-[#FFBE00]/20 flex items-center justify-center mb-4">
                 <Mail className="h-6 w-6 text-[#FFBE00]" />
               </div>
               <h3 className="font-sans font-semibold text-lg mb-2">Email Us</h3>
-              <p className="text-gray-300">info@blackbow.co.ke</p>
+              <p className="text-gray-300"><a href="mailto:info@blackbowconsult.co.ke" className="underline-offset-2 hover:underline">info@blackbowconsult.co.ke</a></p>
             </div>
             <div className="flex flex-col items-center">
               <div className="h-12 w-12 rounded-full bg-[#FFBE00]/20 flex items-center justify-center mb-4">
                 <MapPin className="h-6 w-6 text-[#FFBE00]" />
               </div>
               <h3 className="font-sans font-semibold text-lg mb-2">Visit Us</h3>
-              <p className="text-gray-300">Garden Chambers Bld, Nairobi</p>
+              <p className="text-gray-300"><a href="https://www.google.com/maps?q=Garden+Chambers+Building,+Mokta-Daddah+Street,+Suite+203,+Nairobi,+Kenya" target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">Garden Chambers Building, Mokta-Daddah Street, Suite 203, Nairobi, Kenya</a></p>
             </div>
           </div>
         </div>

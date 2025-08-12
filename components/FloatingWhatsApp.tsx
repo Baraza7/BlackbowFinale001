@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { WHATSAPP_NUMBER_E164, WHATSAPP_MESSAGE } from '@/lib/constants';
 import { usePathname } from 'next/navigation';
 
 const FloatingWhatsApp = () => {
@@ -12,10 +13,8 @@ const FloatingWhatsApp = () => {
         return null;
     }
 
-    // Placeholder number - will be updated later
-    const whatsappNumber = "YOUR_WHATSAPP_NUMBER_HERE";
-    const message = "Hello! I'm visiting your website and have a question.";
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    // Canonical WhatsApp settings for Blackbow Consult
+    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER_E164}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
     return (
         <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">

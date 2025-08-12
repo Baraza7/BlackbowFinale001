@@ -19,7 +19,7 @@ export function Call2Action() {
                     Ready to Start Your Next Project?
                 </h2>
                 <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-10 font-sans">
-                    Let's discuss how Black Bow Consult can provide the financial solutions you need to achieve your goals. Contact us today for a personalized consultation.
+                    Let's discuss how Blackbow Consult can provide the financial solutions you need to achieve your goals. Contact us today for a personalized consultation.
                 </p>
                 <div className="flex justify-center">
                     <a id="cta-link" href="/contacts" className="inline-block">
