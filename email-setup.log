@@ -1,0 +1,227 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250820041758
+Username: BARAZABRIAN\baraza
+RunAs User: BARAZABRIAN\baraza
+Configuration Name: 
+Machine: BARAZABRIAN (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\baraza\.cursor\extensions\ms-vscode.powershell-2025.2.0-universal\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.2.0' -BundledModulesPath 'c:\Users\baraza\.cursor\extensions\ms-vscode.powershell-2025.2.0-universal\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.2.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\baraza\AppData\Roaming\Cursor\logs\20250820T010228\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\baraza\AppData\Roaming\Cursor\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-22492-836611.json' -FeatureFlags @() 
+Process ID: 3564
+PSVersion: 5.1.26100.4768
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4768
+BuildVersion: 10.0.26100.4768
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\email-setup.log
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>Start-Transcript -Path .\email-setup.log -Append
+Transcript started, output file is .\email-setup.log
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm install
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS> Start-Transcript -Path .\email-setup.log -Append
+Transcript started, output file is .\email-setup.log
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm install date-fns@3.6.0 --save-exact
+npm error peer react@"^16.8.0 || ^17.0.0 || ^18.0.0" from react-day-picker@8.10.1
+npm error node_modules/react-day-picker
+npm error   react-day-picker@"8.10.1" from the root project
+npm error
+npm error Conflicting peer dependency: react@18.3.1
+npm error node_modules/react
+npm error   peer react@"^16.8.0 || ^17.0.0 || ^18.0.0" from react-day-picker@8.10.1
+npm error   node_modules/react-day-picker
+npm error     react-day-picker@"8.10.1" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\baraza\AppData\Local\npm-cache\_logs\2025-08-20T01_24_52_746Z-eresolve-rep
+ort.txt
+npm error A complete log of this run can be found in: C:\Users\baraza\AppData\Local\npm-cache
+\_logs\2025-08-20T01_24_52_746Z-debug-0.log
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm install date-fns@3.6.0 --save-exact
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm install
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm pkg set dependencies.date-fns=3.6.0
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm pkg set overrides.date-fns=3.6.0
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>rmdir node_modules -Recurse -Force
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>del package-lock.json
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm install
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm install --legacy-peer-deps
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+ GET /contacts 200 in 1320ms
+ ○ Compiling /api/contact ...
+ ✓ Compiled /api/contact in 519ms (1188 modules)
+ ✓ Compiled /_not-found in 317ms (1192 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 617ms
+/api/contact error: Error: connect ETIMEDOUT 76.76.21.21:465
+    at <unknown> (Error: connect ETIMEDOUT 76.76.21.21:465) {
+  errno: -4039,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '76.76.21.21',
+  port: 465,
+  command: 'CONN'
+}
+ POST /api/contact 500 in 21932ms
+ ✓ Compiled /contacts/error in 362ms (1209 modules)
+ GET /contacts/error 200 in 534ms
+ GET / 200 in 1238ms
+ ○ Compiling /api/health ...
+ ✓ Compiled /api/health in 2s (1181 modules)
+ GET /api/health 200 in 2114ms
+ GET / 200 in 258ms
+ ✓ Compiled in 330ms (461 modules)
+ GET / 200 in 14ms
+ ✓ Compiled /api/contact in 360ms (758 modules)
+/api/contact error: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at async POST (app\api\contact\route.ts:9:17)
+   7 | export async function POST(req: Request) {
+   8 |   try {
+>  9 |     const data = await req.json()
+     |                 ^
+  10 |     const name = String(data?.name || "").trim()
+  11 |     const email = String(data?.email || "").trim()
+  12 |     const phone = String(data?.phone || "").trim()
+ POST /api/contact 500 in 506ms
+ ✓ Compiled in 613ms (461 modules)
+ GET / 200 in 285ms
+ ✓ Compiled in 404ms (461 modules)
+ GET / 200 in 32ms
+ ✓ Compiled in 559ms (461 modules)
+ GET / 200 in 231ms
+ ✓ Compiled in 300ms (461 modules)
+ GET / 200 in 28ms
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>curl.exe -s http://localhost:3000/api/health
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>NPM RUN DEV
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+ ✓ Compiled /api/gallery in 1569ms (1371 modules)
+ GET /about 200 in 517ms
+ GET /api/gallery 200 in 2683ms
+ GET /api/gallery 200 in 399ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 911ms (1375 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1384ms
+ GET /about 200 in 48ms
+ ✓ Compiled in 331ms (490 modules)
+ GET /about 200 in 27ms
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git remote -v
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git remote -v
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git branch
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
