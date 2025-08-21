@@ -3,37 +3,37 @@ import TeamCard from './TeamCard';
 
 const teamMembers = [
   {
-    image: "/Arnold.png",
+    image: "/Arnold1.png",
     name: "Arnold Ngusale",
     position: "CEO",
     bio: "Arnold holds over a decade of experience in investment banking and trade finance, providing strategic leadership. A seasoned microfinance banker, he brings diverse experience in the fast-moving Consumer Goods Industry, Energy, Government services, and Banking."
   },
   {
-    image: "/Susann.png",
+    image: "/Susan01.png",
     name: "Susan Awuor",
     position: "Chief Operating Officer",
     bio: "A seasoned Banker with over 10 years' experience in SME, Consumer Banking and Trade Finance, Susan is known for her versatility, innovative, and relationship-driven approach to strategic and relationship management."
   },
   {
-    image: "/Nelly.png",
+    image: "/Nelly01.png",
     name: "Nelly Yano",
     position: "Regional Manager",
     bio: "Nelly brings on board expertise in agribusiness, credit, and trade finance, overseeing operations in West and Rift regions."
   },
   {
-    image: "/Ruth (2).png",
+    image: "/Ruth01.png",
     name: "Ruth Mwihaki",
     position: "Business Development Manager Operations Officer",
     bio: "Ruth holds 8+ years in consumer banking, leading efforts in Nairobi, Central, and Eastern regions."
   },
   {
-    image: "/ALLAN (1).png",
+    image: "/Allan01.png",
     name: "Allan Juma",
     position: "Operations Officer",
     bio: "Allan specializes in trade finance operations, reconciliations, and data management."
   },
   {
-    image: "/Faith Kemboi.png",
+    image: "/Faith01.png",
     name: "Faith Kemboi",
     position: "Relationship Officer",
     bio: "Proactive Relationship Officer skilled in trade finance and insurance advisory. Experienced in structuring bid bonds, guarantees, and WIBA policies. Strong in client relations, compliance, and delivering tailored risk solutions. Also offers skills in design, web development, and digital marketing."

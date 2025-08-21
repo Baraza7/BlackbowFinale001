@@ -47,7 +47,10 @@ export default function ContactsForm() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(values),
+        body: JSON.stringify({
+          ...values,
+          subject: "MAIN EMAIL FORM IN THE BLACKBOW CONSULT WEBSITE'S CONTACTS PAGE",
+        }),
       })
 
       if (response.ok) {

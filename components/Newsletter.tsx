@@ -50,12 +50,19 @@ const Newsletter: React.FC<NewsletterProps> = ({
 
     try {
       const pageName = getPageName(pathname);
-      const response = await fetch('/api/send', {
+      const response = await fetch('/api/contacts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ name, phone, email, page: pageName }),
+        body: JSON.stringify({
+          name,
+          email,
+          phone,
+          subject: 'FOOTER EMAIL COLLECTION FORM IN THE BLACKBOW CONSULT WEBSITE',
+          message: `Newsletter/CTA submission from ${pageName}.\nPhone: ${phone || '-'}\nEmail: ${email}`,
+          privacy: true
+        }),
       });
 
       if (response.ok) {

@@ -43,7 +43,7 @@ export default function AboutPage() {
       <section className="relative -mt-16 pb-20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-4 gap-0 max-w-6xl mx-auto">
-            <StatCard icon={<TrendingUp className="h-8 w-8 text-white" />} value={YEARS_OF_EXCELLENCE} label="Years of Excellence" />
+            <StatCard icon={<img src="/money.png" alt="Ksh" className="h-8 w-8" />} value={YEARS_OF_EXCELLENCE} label="Years of Excellence" />
             <StatCard icon={<Users className="h-8 w-8 text-white" />} value={250} label="Satisfied Clients" />
             <StatCard icon={<Award className="h-8 w-8 text-white" />} value={500} label="Trade Finance Facilitated" />
             <StatCard icon={<CheckCircle className="h-8 w-8 text-white" />} value={100} label="Success Rate" />
@@ -183,7 +183,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 max-[600px]:grid-cols-1 gap-8 items-center">
             <div className="relative h-[40rem]">
               <Image
-                src="/Arnald-CEO1.png"
+                src="/Arnald-CEO1.png.png"
                 alt="Arnald CEO"
                 fill
                 className="object-contain object-bottom"

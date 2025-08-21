@@ -225,3 +225,100 @@ PS>$global:__psEditorServices_userInput = ""
 PS>git branch
 
 ]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git add .
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git commit -m "EMAIL FORM FIX"
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git check-ignore -v .env.local
+.gitignore:20:.env*     .env.local
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git status --ignored -s | findstr env.local
+!! .env.local
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+ GET /about 200 in 79ms
+ ✓ Compiled in 626ms (1208 modules)
+ GET / 200 in 178ms
+ GET /about 200 in 179ms
+ GET /contacts 200 in 185ms
+ GET /about 200 in 25ms
+ ✓ Compiled in 646ms (1208 modules)
+ GET /about 200 in 83ms
+ GET / 200 in 86ms
+ GET /contacts 200 in 102ms
+ GET /about 200 in 68ms
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm install
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm uninstall date-fns
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm i date-fns@^3.6.0
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>npm run dev
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
