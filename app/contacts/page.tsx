@@ -34,21 +34,11 @@ export default function ContactsPage() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-0 max-w-5xl mx-auto">
               <InfoCard icon={<FileText className="h-8 w-8 text-white" />} title="Postal Address">
-                <p className="text-sm">Blackbow Consult Ltd., P.O. Box 203, Nairobi – Kenya</p>
+                <p className="text-sm">Blackbow Consult Ltd., P.O. Box 3143-00506, Nairobi – Kenya</p>
               </InfoCard>
               <InfoCard icon={<Phone className="h-8 w-8 text-white" />} title="Contacts">
                 <p className="text-sm">+254 728 552 225 / +254 720 709 711</p>
                 <p className="text-sm">info@blackbowconsult.co.ke</p>
-                <p className="text-sm mt-2">
-                  <a
-                    href={WHATSAPP_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#25D366] underline-offset-2 hover:underline"
-                  >
-                    Chat on WhatsApp
-                  </a>
-                </p>
               </InfoCard>
               <InfoCard icon={<MapPin className="h-8 w-8 text-white" />} title="Physical Address">
                 <p className="text-sm">

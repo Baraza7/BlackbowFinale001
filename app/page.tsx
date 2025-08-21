@@ -752,7 +752,7 @@ export default function Home() {
               <p className="contacts-info">
                 <a href="https://www.google.com/maps?q=Garden+Chambers+Building,+Mokta-Daddah+Street,+Suite+203,+Nairobi,+Kenya" target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline">Garden Chambers Building, Mokta-Daddah Street, Suite 203, Nairobi, Kenya</a>
                 <br />
-                P.O. Box 3143-00506, Nairobi - Kenya
+                Blackbow Consult Ltd., P.O. Box 3143-00506, Nairobi – Kenya
               </p>
             </div>
 

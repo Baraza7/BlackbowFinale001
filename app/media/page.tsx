@@ -2,7 +2,8 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, Calendar, Clock, Download, ExternalLink, Search, User } from "lucide-react"
+import { useState } from "react"
+import { ArrowRight, Calendar, Clock, Download, ExternalLink, Search, User, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Header from "@/components/header"
@@ -16,6 +17,7 @@ import FullGallery from "@/components/FullGallery"
 import initialFullGalleryConfig from "../../fullGalleryConfig/fullGalleryConfig"
 
 export default function MediaPage() {
+  const [isVideoOpen, setIsVideoOpen] = useState(false)
   return (
     <div className="min-h-screen bg-white text-gray-800">
       <Header />
@@ -64,6 +66,8 @@ export default function MediaPage() {
         </div>
       </section>
 
+      
+
       {/* Blog Grid Section */}
       <section className="py-20 bg-gray-950 text-white">
         <div className="container mx-auto px-4 md:px-6">
@@ -78,6 +82,76 @@ export default function MediaPage() {
           <FullGallery config={initialFullGalleryConfig} />
         </div>
       </section>
+
+      
+      {/* Media Video Promo */}
+      <section aria-labelledby="media-video-promo" className="w-full bg-[#FFBE00] py-[100px]">
+        <div className="mx-auto w-full max-w-screen-xl px-4 md:px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+            {/* Left: Poster Image */}
+            <div className="relative h-[320px] md:h-auto rounded-2xl overflow-hidden">
+              <Image
+                src="/video01.jpg"
+                alt="Blackbow Consult Eldoret – video feature poster"
+                fill
+                priority={false}
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+
+            {/* Right: Copy + CTA */}
+            <div className="flex flex-col justify-center">
+              <h2 id="media-video-promo" className="font-heading text-3xl md:text-4xl font-bold text-gray-900">
+                Blackbow Consult Eldoret: Empowering Businesses Across Counties
+              </h2>
+
+              <p className="mt-4 text-lg md:text-xl text-gray-700">
+                Relationship Manager Neli Yano shares how Blackbow Consult supports diverse clients with tailored financial guarantees.
+              </p>
+
+              <p className="mt-6 text-base md:text-lg text-gray-600 leading-relaxed">
+                In this feature, <strong>Neli Yano</strong>, Relationship Manager at our Eldoret Branch, highlights how Blackbow Consult Ltd. serves clients across multiple
+                counties — from farmers and traders to professionals and contractors. She explains our core financial solutions, including
+                <strong> bid bonds, performance bonds, and advance payment guarantees</strong>, designed to help businesses confidently execute projects.
+              </p>
+
+              <div className="mt-8">
+                <button
+                  onClick={() => setIsVideoOpen(true)}
+                  className="inline-flex items-center justify-center rounded-full px-6 py-3 text-base font-medium bg-black text-white hover:bg-gray-800 transition-colors duration-200"
+                  aria-label="Watch Video"
+                >
+                  Watch Video
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {isVideoOpen && (
+        <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="video-modal-title">
+          <div className="relative w-full max-w-4xl">
+            <button
+              onClick={() => setIsVideoOpen(false)}
+              className="absolute -top-3 -right-3 md:top-0 md:right-0 bg-white text-black rounded-full p-2 shadow hover:bg-gray-200"
+              aria-label="Close video"
+            >
+              <X className="w-5 h-5" />
+            </button>
+            <div className="relative w-full pt-[56.25%] bg-black rounded-lg overflow-hidden">
+              <iframe
+                src="https://player.vimeo.com/video/1112093443?autoplay=1&title=0&byline=0&portrait=0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0 h-full w-full"
+                title="Blackbow Consult Eldoret: Empowering Businesses Across Counties"
+              />
+            </div>
+          </div>
+        </div>
+      )}
 
       <SharedPageSections />
       <Footer />

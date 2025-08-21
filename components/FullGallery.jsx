@@ -21,10 +21,25 @@ const FullGallery = ({ config: staticConfig }) => {
         const res = await fetch('/api/fullgallery');
         if (!res.ok) throw new Error('Failed to fetch gallery config');
         const data = await res.json();
-        setGalleryConfig(data);
+        // Enforce removal of the last 3 placeholder images if present
+        const trimmed = {
+          ...data,
+          images: (data.images || []).slice(0, 6),
+          settings: {
+            ...(data.settings || {}),
+          }
+        };
+        setGalleryConfig(trimmed);
       } catch (err) {
         setError('Could not load latest gallery. Showing default.');
-        setGalleryConfig(staticConfig);
+        const trimmedFallback = {
+          ...staticConfig,
+          images: (staticConfig.images || []).slice(0, 6),
+          settings: {
+            ...(staticConfig.settings || {}),
+          }
+        };
+        setGalleryConfig(trimmedFallback);
       } finally {
         setLoading(false);
       }
@@ -94,8 +109,8 @@ const FullGallery = ({ config: staticConfig }) => {
   
   // Responsive grid configuration
   const getImagesPerPage = () => {
-    // Desktop: 3x3 = 9, Tablet: 2x2 = 4, Mobile: 1x3 = 3
-    return 9; // Always use 9 as base for consistent height
+    // Show up to 6 images per page (2 rows x 3 columns) after trimming
+    return Math.min(6, (images || []).length || 6);
   };
 
   const imagesPerPage = getImagesPerPage();

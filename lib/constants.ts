@@ -1,6 +1,9 @@
 export const CANONICAL_ADDRESS =
   "Garden Chambers Building, Mokta-Daddah Street, Suite 203, Nairobi, Kenya";
 
+export const CANONICAL_POSTAL_ADDRESS =
+  "Blackbow Consult Ltd., P.O. Box 3143-00506, Nairobi – Kenya";
+
 export const CANONICAL_MAPS_URL =
   "https://www.google.com/maps?q=Garden+Chambers+Building,+Mokta-Daddah+Street,+Suite+203,+Nairobi,+Kenya";
 

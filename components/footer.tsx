@@ -2,7 +2,8 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Mail, MapPin, Phone } from "lucide-react"
-import { FaLinkedinIn, FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa"
+import { FaFacebookF, FaInstagram } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6"
 import { useTheme } from "next-themes"
 import { useState, useEffect } from "react"
 import Newsletter from "./Newsletter"
@@ -36,9 +37,7 @@ export default function Footer() {
               Home of your customized trade finance solutions in Kenya and across Africa.
             </p>
             <p className="text-gray-400 text-xs sm:text-sm">
-              Garden Chambers Bld, Mokta-Daddah Street, Suite 301A
-              <br />
-              P.O. Box 3143-00506, Nairobi - Kenya
+              Blackbow Consult Ltd., P.O. Box 3143-00506, Nairobi – Kenya
             </p>
           </div>
 
@@ -155,7 +154,6 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4" style={{ color: "#FFBE00" }} />
                 <span className="text-gray-400 text-sm sm:text-base">+254 728 552 225 / +254 720 709 711</span>
-                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="ml-2 text-[#25D366] hover:underline underline-offset-2">WhatsApp</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" style={{ color: "#FFBE00" }} />
@@ -167,32 +165,31 @@ export default function Footer() {
 
             <div className="flex space-x-3 pt-6">
               <a
-                href="https://linkedin.com"
-                className="w-8 h-8 rounded-full flex items-center justify-center border border-gray-600 hover:bg-[#FFBE00] hover:border-[#FFBE00] hover:text-[#27272A] transition-colors"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedinIn size={14} />
-              </a>
-              <a
-                href="https://twitter.com"
-                className="w-8 h-8 rounded-full flex items-center justify-center border border-gray-600 hover:bg-[#FFBE00] hover:border-[#FFBE00] hover:text-[#27272A] transition-colors"
-                aria-label="Twitter"
-              >
-                <FaTwitter size={14} />
-              </a>
-              <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/18DDB3fFtD/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full flex items-center justify-center border border-gray-600 hover:bg-[#FFBE00] hover:border-[#FFBE00] hover:text-[#27272A] transition-colors"
                 aria-label="Facebook"
               >
                 <FaFacebookF size={14} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/blackbowconsult?igsh=MWk4cnpoMmt3aTZ0ZA=="
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full flex items-center justify-center border border-gray-600 hover:bg-[#FFBE00] hover:border-[#FFBE00] hover:text-[#27272A] transition-colors"
                 aria-label="Instagram"
               >
                 <FaInstagram size={14} />
+              </a>
+              <a
+                href="https://x.com/BlackbowConsult?t=fmFdlDy4FeDoSEHQkd8flA&s=08"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-full flex items-center justify-center border border-gray-600 hover:bg-[#FFBE00] hover:border-[#FFBE00] hover:text-[#27272A] transition-colors"
+                aria-label="X"
+              >
+                <FaXTwitter size={14} />
               </a>
             </div>
           </div>

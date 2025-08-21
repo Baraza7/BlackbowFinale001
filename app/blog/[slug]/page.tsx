@@ -153,12 +153,8 @@ export default function ArticlePage({ params }: { params: Promise<{ slug: string
     window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`, '_blank')
   }
   
-  const shareOnTwitter = () => {
-    window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareTitle)}`, '_blank')
-  }
-  
-  const shareOnLinkedIn = () => {
-    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`, '_blank')
+  const shareOnX = () => {
+    window.open(`https://x.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareTitle)}`, '_blank')
   }
 
   return (
@@ -297,18 +293,11 @@ export default function ArticlePage({ params }: { params: Promise<{ slug: string
                           <Facebook className="w-4 h-4" />
                         </button>
                         <button
-                          onClick={shareOnTwitter}
-                          className="p-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition-colors"
-                          title="Share on Twitter"
+                          onClick={shareOnX}
+                          className="p-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
+                          title="Share on X"
                         >
-                          <Twitter className="w-4 h-4" />
-                        </button>
-                        <button
-                          onClick={shareOnLinkedIn}
-                          className="p-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors"
-                          title="Share on LinkedIn"
-                        >
-                          <Linkedin className="w-4 h-4" />
+                          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                         </button>
                       </div>
                     </div>

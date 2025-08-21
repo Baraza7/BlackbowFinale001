@@ -322,3 +322,18 @@ PS>TerminatingError(): "The pipeline has been stopped."
 >> TerminatingError(): "The pipeline has been stopped."
 >> TerminatingError(): "The pipeline has been stopped."
 ]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git add .
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git commit -m "Latest site updates"
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git push origin main
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cbaraza\x5cDesktop\x5cBlackbowFinalePS C:\Users\baraza\Desktop\BlackbowFinale> ]633;B

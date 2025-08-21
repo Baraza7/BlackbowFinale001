@@ -45,7 +45,20 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Blackbow Consult Limited - Trade Finance Solutions",
   description: "Your Partner in Customized Trade Finance, Insurance & Investment Solutions Across Africa",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: [
+      { url: '/crown.png' },
+      { url: '/crown.png', sizes: '16x16', type: 'image/png' },
+      { url: '/crown.png', sizes: '32x32', type: 'image/png' },
+      { url: '/crown.png', sizes: '48x48', type: 'image/png' }
+    ],
+    shortcut: ['/crown.png'],
+    apple: [
+      { url: '/crown.png' },
+      { url: '/crown.png', sizes: '180x180', type: 'image/png' }
+    ]
+  }
 }
 
 export default function RootLayout({

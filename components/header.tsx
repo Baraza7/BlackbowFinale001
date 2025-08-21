@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Menu, X, Sun, Moon, Palette, Facebook } from 'lucide-react'
+import { FaInstagram } from 'react-icons/fa'
 import { useMobile } from "@/hooks/use-mobile"
 import { useTheme } from "next-themes"
 import { useRouter, usePathname } from "next/navigation"
@@ -84,10 +85,13 @@ export default function Header({ isHomePage = false }: HeaderProps) {
           <div className="flex items-center max-[500px]:w-[10%] max-[500px]:justify-end">
             {/* Social Media Icons - Hidden below 500px */}
             <div className="hidden min-[500px]:flex items-center space-x-3">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white hover:bg-yellow-400 flex items-center justify-center transition-colors duration-300">
+              <a href="https://www.facebook.com/share/18DDB3fFtD/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white hover:bg-yellow-400 flex items-center justify-center transition-colors duration-300">
                 <Facebook className="w-4 h-4 text-black fill-black" />
               </a>
-              <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white hover:bg-yellow-400 flex items-center justify-center transition-colors duration-300">
+              <a href="https://www.instagram.com/blackbowconsult?igsh=MWk4cnpoMmt3aTZ0ZA==" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white hover:bg-yellow-400 flex items-center justify-center transition-colors duration-300">
+                <FaInstagram className="w-4 h-4 text-black" />
+              </a>
+              <a href="https://x.com/BlackbowConsult?t=fmFdlDy4FeDoSEHQkd8flA&s=08" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-white hover:bg-yellow-400 flex items-center justify-center transition-colors duration-300">
                 <svg className="w-4 h-4 text-black fill-black" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
               </a>
             </div>
@@ -131,10 +135,13 @@ export default function Header({ isHomePage = false }: HeaderProps) {
                 
                 {/* Social Media Links for Mobile - Clean minimal design */}
                 <div className={`flex items-center justify-center space-x-6 pt-6 mt-4 border-t ${isHomePage ? 'border-gray-200' : 'border-white/20'}`}>
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300 ${isHomePage ? 'bg-gray-100 hover:bg-[#FFBE00] hover:scale-110' : 'bg-white/10 hover:bg-[#FFBE00] hover:scale-110'}`}>
+                  <a href="https://www.facebook.com/share/18DDB3fFtD/" target="_blank" rel="noopener noreferrer" className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300 ${isHomePage ? 'bg-gray-100 hover:bg-[#FFBE00] hover:scale-110' : 'bg-white/10 hover:bg-[#FFBE00] hover:scale-110'}`}>
                     <Facebook className={`w-5 h-5 ${isHomePage ? 'text-gray-700' : 'text-white'} transition-colors duration-300`} />
                   </a>
-                  <a href="https://x.com" target="_blank" rel="noopener noreferrer" className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300 ${isHomePage ? 'bg-gray-100 hover:bg-[#FFBE00] hover:scale-110' : 'bg-white/10 hover:bg-[#FFBE00] hover:scale-110'}`}>
+                  <a href="https://www.instagram.com/blackbowconsult?igsh=MWk4cnpoMmt3aTZ0ZA==" target="_blank" rel="noopener noreferrer" className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300 ${isHomePage ? 'bg-gray-100 hover:bg-[#FFBE00] hover:scale-110' : 'bg-white/10 hover:bg-[#FFBE00] hover:scale-110'}`}>
+                    <FaInstagram className={`w-5 h-5 ${isHomePage ? 'text-gray-700' : 'text-white'} transition-colors duration-300`} />
+                  </a>
+                  <a href="https://x.com/BlackbowConsult?t=fmFdlDy4FeDoSEHQkd8flA&s=08" target="_blank" rel="noopener noreferrer" className={`w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300 ${isHomePage ? 'bg-gray-100 hover:bg-[#FFBE00] hover:scale-110' : 'bg-white/10 hover:bg-[#FFBE00] hover:scale-110'}`}>
                     <svg className={`w-5 h-5 ${isHomePage ? 'text-gray-700' : 'text-white'} transition-colors duration-300`} viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                   </a>
                 </div>

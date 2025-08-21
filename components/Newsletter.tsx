@@ -110,7 +110,7 @@ const Newsletter: React.FC<NewsletterProps> = ({
   if (isFooter) {
     return (
         <div className="space-y-4">
-            <h3 className="text-lg font-semibold mb-2 font-heading">Newsletter</h3>
+            <h3 className="text-lg font-semibold mb-2 font-heading">Send us your email to find out more!</h3>
             <form onSubmit={handleSubmit} className="flex">
                 <input
                     type="email"
@@ -148,7 +148,7 @@ const Newsletter: React.FC<NewsletterProps> = ({
                 {title}
               </h2>
             </div>
-            <div className={`lg:w-1/2 ${customContent ? 'text-center' : ''}`}>
+            <div className={`lg:w-1/2 ${customContent ? 'text-left' : ''}`}>
               <p className="text-white/90 mb-4">
                 {subtitle}
               </p>
