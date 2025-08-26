@@ -16,8 +16,21 @@ import SharedPageSections from "@/components/SharedPageSections"
 import InnerHero from "@/components/InnerHero"
 import ImageAccordion from "@/components/ImageAccordion/ImageAccordion"
 import galleryConfig from "../../galleryConfig/galleryConfig"
+// removed duplicate useEffect import (already imported with useState above)
 
 export default function AboutPage() {
+  const [introTitle, setIntroTitle] = useState("Meet our team of friendly & experienced experts")
+  const [introBody, setIntroBody] = useState("Our strength lies in our collective expertise and passion. Get to know the dedicated professionals at Blackbow Consult, committed to driving your success with innovative solutions and unwavering support.")
+  useEffect(() => {
+    let cancelled = false
+    fetch(`/api/content?page=about&section=intro`).then(async (r) => r.json()).then((res) => {
+      const d = res?.data
+      if (!d || cancelled) return
+      if (d.title) setIntroTitle(String(d.title))
+      if (d.body) setIntroBody(String(d.body))
+    }).catch(() => {})
+    return () => { cancelled = true }
+  }, [])
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -194,11 +207,9 @@ export default function AboutPage() {
                 className="font-italiana text-4xl lg:text-5xl font-bold mb-6"
                 style={{ color: 'var(--accent-yellow)' }}
               >
-                Meet our team of friendly & experienced experts
+                {introTitle}
               </h2>
-              <p className="font-body text-gray-800 text-lg leading-relaxed">
-                Our strength lies in our collective expertise and passion. Get to know the dedicated professionals at Blackbow Consult, committed to driving your success with innovative solutions and unwavering support.
-              </p>
+              <p className="font-body text-gray-800 text-lg leading-relaxed" dangerouslySetInnerHTML={{ __html: introBody }} />
             </div>
           </div>
         </div>

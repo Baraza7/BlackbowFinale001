@@ -1,0 +1,166 @@
+// Prisma schema for editable CMS content
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  OWNER
+  EDITOR
+}
+
+enum ContentType {
+  RICH_TEXT
+  IMAGE
+  VIDEO
+  HTML
+  LINK
+}
+
+enum MediaRole {
+  PRIMARY
+  SECONDARY
+  GALLERY
+}
+
+enum AuditAction {
+  CREATE
+  UPDATE
+  DELETE
+  PUBLISH
+  RESTORE
+}
+
+enum EntityType {
+  PAGE
+  SECTION
+  CONTENT_BLOCK
+  MEDIA_ASSET
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  role      Role     @default(EDITOR)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  auditLogs AuditLog[]
+  revisions Revision[] @relation("UserRevisions")
+}
+
+model Page {
+  id        String    @id @default(cuid())
+  slug      String    @unique
+  title     String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  sections  Section[]
+}
+
+model Section {
+  id        String    @id @default(cuid())
+  pageId    String
+  key       String
+  title     String?
+  order     Int       @default(0)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  page      Page      @relation(fields: [pageId], references: [id], onDelete: Cascade)
+  blocks    ContentBlock[]
+  media     SectionMedia[]
+
+  @@unique([pageId, key])
+  @@index([pageId])
+}
+
+model ContentBlock {
+  id          String      @id @default(cuid())
+  sectionId   String
+  key         String?
+  type        ContentType
+  content     String?     // HTML or text content for RICH_TEXT/HTML
+  metadata    Json?
+  isDraft     Boolean     @default(false)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  section     Section     @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+
+  @@index([sectionId])
+}
+
+model MediaAsset {
+  id          String    @id @default(cuid())
+  filename    String
+  mimeType    String
+  width       Int?
+  height      Int?
+  sizeBytes   Int?
+  externalUrl String?
+  publicPath  String?
+  variants    Json?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  sectionLinks SectionMedia[]
+}
+
+model SectionMedia {
+  id         String    @id @default(cuid())
+  sectionId  String
+  mediaId    String
+  role       MediaRole @default(PRIMARY)
+  order      Int       @default(0)
+
+  section    Section   @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  media      MediaAsset @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+
+  @@index([sectionId])
+  @@index([mediaId])
+  @@unique([sectionId, mediaId, role])
+}
+
+model Revision {
+  id         String     @id @default(cuid())
+  label      String
+  createdById String?
+  createdAt  DateTime   @default(now())
+
+  createdBy  User?      @relation("UserRevisions", fields: [createdById], references: [id])
+  items      RevisionItem[]
+}
+
+model RevisionItem {
+  id         String     @id @default(cuid())
+  revisionId String
+  entityType EntityType
+  entityId   String
+  data       Json
+
+  revision   Revision   @relation(fields: [revisionId], references: [id], onDelete: Cascade)
+
+  @@index([revisionId])
+}
+
+model AuditLog {
+  id         String      @id @default(cuid())
+  userId     String?
+  action     AuditAction
+  entityType EntityType
+  entityId   String
+  metadata   Json?
+  createdAt  DateTime    @default(now())
+
+  user       User?       @relation(fields: [userId], references: [id])
+}
+
+

@@ -70,6 +70,16 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <a
+                  href="https://insurance.blackbowconsult.co.ke"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#FFBE00] transition-colors text-sm sm:text-base"
+                >
+                  Insurance
+                </a>
+              </li>
+              <li>
                 <Link
                   href="/blog"
                   className="text-gray-400 hover:text-[#FFBE00] transition-colors text-sm sm:text-base"

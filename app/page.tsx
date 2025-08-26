@@ -91,6 +91,23 @@ export default function Home() {
 
   const { theme } = useTheme()
 
+  // CMS content (fallback to static defaults)
+  const [heroTitleHtml, setHeroTitleHtml] = useState("Welcome to <span style='color: #FFBE00;'>Blackbow</span><br />Consult Limited.")
+  const [heroSubtitleHtml, setHeroSubtitleHtml] = useState("Your Partner in Customized Trade Finance, Insurance & Investment Solutions Across Africa")
+  const [heroBgOverride, setHeroBgOverride] = useState<string | undefined>(undefined)
+
+  useEffect(() => {
+    let cancelled = false
+    fetch(`/api/content?page=home&section=hero`).then(async (r) => r.json()).then((res) => {
+      const d = res?.data
+      if (!d || cancelled) return
+      if (d.title) setHeroTitleHtml(String(d.title))
+      if (d.subtitle) setHeroSubtitleHtml(String(d.subtitle))
+      if (d.imageSrc) setHeroBgOverride(String(d.imageSrc))
+    }).catch(() => {})
+    return () => { cancelled = true }
+  }, [])
+
   useEffect(() => {
     setMounted(true)
   }, [])
@@ -245,6 +262,7 @@ export default function Home() {
 
   // Get the background image based on theme
   const getBackgroundImage = () => {
+    if (heroBgOverride) return heroBgOverride
     if (!mounted) return "/Home2Hero.png" // Default to new image
     // return theme === "light" ? "/construction-sunset-warm.png" : "/Home2Hero.png"
     return "/Home2Hero.png" // Use Home2Hero.png for all themes
@@ -306,7 +324,7 @@ export default function Home() {
             >
               <h1 className={`hero-title transition-colors duration-1000 ${getTitleTextColor()}`}>
                 <Typewriter
-                  text={`Welcome to <span style=\'color: #FFBE00;\'>Blackbow</span><br />Consult Limited.`}
+                  text={heroTitleHtml}
                   delay={60}
                   onComplete={handleTitleAnimationComplete}
                 />
@@ -316,7 +334,7 @@ export default function Home() {
                   subtitleVisible ? "opacity-100" : "opacity-0"
                 } ${getSubtitleTextColor()}`}
                 dangerouslySetInnerHTML={{
-                  __html: "Your Partner in Customized Trade Finance, Insurance & Investment Solutions Across Africa",
+                  __html: heroSubtitleHtml,
                 }}
               ></p>
               <div

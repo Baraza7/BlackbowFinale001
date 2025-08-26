@@ -25,3 +25,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.tsemail-setup.log
+dev.db
+prisma/dev.db

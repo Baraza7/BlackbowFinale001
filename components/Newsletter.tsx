@@ -50,13 +50,15 @@ const Newsletter: React.FC<NewsletterProps> = ({
 
     try {
       const pageName = getPageName(pathname);
+      // Ensure name is always present for the API validation, especially in footer variant
+      const effectiveName = name && name.trim().length > 0 ? name : (isFooter ? 'Footer Newsletter Signup' : 'Website User');
       const response = await fetch('/api/contacts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name,
+          name: effectiveName,
           email,
           phone,
           subject: 'FOOTER EMAIL COLLECTION FORM IN THE BLACKBOW CONSULT WEBSITE',
