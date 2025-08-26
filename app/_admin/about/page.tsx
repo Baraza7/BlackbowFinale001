@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = 'force-dynamic';
+
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Image as ImageIcon, Users, FileText, Award } from 'lucide-react';
 import Link from 'next/link';
